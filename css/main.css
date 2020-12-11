@@ -1,0 +1,124 @@
+
+
+/*General Styles ----------------------------------------------------------------------------------------------*/
+
+body { padding: 0; margin: 0; overflow-x: hidden; }
+	.wrapper { height: 4500px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
+		grid-template-rows: 14% 76% 10% }
+		.destaque { grid-area: main; }
+		.conteudo { grid-area: section; }
+			.secao-missao { height: 25%; }
+			.secao-mensagem { height: 12%; }
+			.secao-sobre { height: 63%; }
+		.rodape { grid-area: footer; }
+
+		.titulo-principal { font-family: 'Arial', sans-serif; color: #000; text-align: center; 
+							font-size: 2.5em; font-weight: 800; position: relative; top: 50px; }
+/*End of general styles --------------------------------------------------------------------------------------*/
+
+/*Navegacao -----------------------------------------------------------------------------------*/
+.navegacao, .navegacao-itens, .navegacao-itens-lista , .redes-sociais { display: flex; }
+			.branch { color: #fff; position: relative; top: 200px; left: 50px; }
+			.titulo-navegacao { position: relative; top: 170px; left: 100px }
+			.texto-navegacao { font-family: 'Monoton', cursive; color: #fff; font-size: 2em; }
+			.navegacao-itens { position: relative; right: 25%; }
+			.navegacao-itens-lista li, .redes-sociais li { list-style: none; width: 100px; }
+			.linkedin { color: #0779e4;  }
+			.instagram { color: #f2a365; }
+			.whatsapp { color: #21bf73; }
+			.navegacao-itens-lista li { margin-right: 1em; width: 130px; }
+			.navegacao-itens-lista li a, .redes-sociais li a { text-decoration: none; 
+					font-size: 1.2em; }
+			.navegacao-itens-lista li a { font-family: 'Montserrat', sans-serif; color: #fff; 
+					font-weight: 800; }
+			.navegacao-itens-lista li a:hover { color: tomato; }
+			.navegacao-itens-lista { position: relative; left: 30%; }
+			.redes-sociais { position: relative; left: 50%; }
+/*Fim da navegacao ---------------------------------------------------------------------------*/
+
+/*Destaque -------------------------------------------------------------------------------------*/
+.destaque { background: linear-gradient(rgba(0,0,0,0.7), 
+			rgba(0,0,0,0.7)),url('../img/negocios_00.jpg')no-repeat center/cover; height: 650px; }
+/*Fim destaque --------------------------------------------------------------------------------*/
+
+/*Servicos ----------------------------------------------------------------------------------*/
+.secao-missao { display: flex; }
+	.missao-descricao { width: 500px; }
+		.missao-img { position: relative; left: 15%; top: 100px; }
+		.missao-img img { border-radius: 5px; }
+		.missao-descricao-textos { width: 650px; height: 450px; position: relative; left: 35%; 
+					top: 140px; background: #fff; box-shadow: 10px 10px 10px rgba(0,0,0,0.2); 
+					border-radius: 5px; font-family: 'Open-sans', sans-serif; }
+			.missao-titulo { position: relative; margin-left: 1.5em; top: 50px; font-size: 2em; 
+					font-weight: bold; }
+			.missao-texto { width: 90%; left: 10%; position: relative; left: 50px; top: 100px;
+					color: rgba(0,0,0,0.5); }
+		
+/*Fim dee servicos --------------------------------------------------------------------------*/
+	
+/*Mensagem ------------------------------------------------------------------------------------*/
+	.mensagem { height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
+		.mensagem-texto, .mensagem-autor { font-family: 'Montserrat', sans-serif; color: #fff; 
+			position: relative; left: 100px; }
+		.mensagem-texto { font-size: 1.5em; position: relative; left: 100px; top: 200px; }
+		.mensagem-autor { font-size: 1em; position: relative; left: 45%; top: 250px; }
+/*Fim Mensagem -------------------------------------------------------------------------------*/
+
+/*Sobre ------------------------------------------------------------------------------------*/
+.sobre-motivacao { height: 26.3%; display: flex; justify-content: space-around; margin-left: 2em; }
+	.sobre-motivacao-card { height: 250px; width: 250px; margin-right: 2em; position: relative; 
+							top: 150px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
+							text-align: center; border-radius: 5px; }
+		.card-titulo { font-size: 4em; font-weight: bold; color: tomato; }
+		.card-texto { margin-top: 1.5em; width: 90%; position: relative; left: 15px; 
+						color: rgba(0,0,0,0.5);}
+.sobre-servicos { height: 33.3%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/servicos_01.jpg')no-repeat center/cover; 
+			font-family: 'Lobster', cursive; color: #fff; text-align: center; }
+	.servicos-titulo { font-size: 5em; position: relative; top: 100px; }
+	.servicos-texto { font-size: 2em; position: relative; top: 200px; }
+
+/*Fim sobre --------------------------------------------------------------------------------*/
+
+/*Servicos --------------------------------------------------------------------------------*/
+.secao-produtos { height: 40.3%; }
+	.card_1_ld { display: flex; width: 40%; height: 180px; position: relative; left: 10%; top: 30px; 
+				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
+				border-radius: 5px; border-right: none; }
+	.card_2_ld { display: flex; width: 40%; height: 180px; position: relative; left: 30%; top: 50px; 
+				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
+				border-radius: 5px; }	
+	.card_3_ld { display: flex; width: 40%; height: 180px; position: relative; left: 50%; top: 70px; 
+				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
+				border-radius: 5px; }	
+	.landing_page_img{width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/Red_servicos_04.jpg')no-repeat center/cover; 
+			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+	.ecommerce_img{width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/Red_servicos_06.jpg')no-repeat center/cover; 
+			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+	.blog_img{width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/Red_servicos_08.jpg')no-repeat center/cover; 
+			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+	.landing_page_texto, .ecommerce_texto, .blog_texto { width: 50%; height: 100%; 
+			text-align: center; margin-top: 1em; }
+/* FIm serviços ---------------------------------------------------------------------------*/
+
+/*Rodape -------------------------------------------------------------------------------------*/
+.rodape { background: #222; }
+/*Fim rodape --------------------------------------------------------------------------------*/
+
+/*Breakpoints ------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 420px) {
+
+}
+
+@media (min-width: 421px) and (max-width: 720px) {
+
+}
+
+@media (min-width: 721px) and (max-width: 920px) {
+
+}
