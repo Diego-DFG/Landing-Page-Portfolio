@@ -3,13 +3,14 @@
 /*General Styles ----------------------------------------------------------------------------------------------*/
 
 body { padding: 0; margin: 0; overflow-x: hidden; }
-	.wrapper { height: 4500px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
+	.wrapper { height: 5000px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
 		grid-template-rows: 14% 76% 10% }
 		.destaque { grid-area: main; }
 		.conteudo { grid-area: section; }
 			.secao-missao { height: 25%; }
 			.secao-mensagem { height: 12%; }
-			.secao-sobre { height: 63%; }
+			.secao-sobre { height: 45%; }
+			.portfolio { height: 18%; }
 		.rodape { grid-area: footer; }
 
 		.titulo-principal { font-family: 'Arial', sans-serif; color: #000; text-align: center; 
@@ -104,6 +105,11 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.landing_page_texto, .ecommerce_texto, .blog_texto { width: 50%; height: 100%; 
 			text-align: center; margin-top: 1em; }
 /* FIm serviços ---------------------------------------------------------------------------*/
+
+/*Planos ---------------------------------------------------------------------------------*/
+.portfolio { background: #1b6ca8; clip-path: circle(56.0% at 84% 50%); }
+	.titulo-portfolio { color: #fff; font-family: 'Lucida Handwriting', cursive; font-weight: 700; }
+/* Fim planos ----------------------------------------------------------------------------*/
 
 /*Rodape -------------------------------------------------------------------------------------*/
 .rodape { background: #222; }
