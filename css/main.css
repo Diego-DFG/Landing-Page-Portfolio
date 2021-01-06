@@ -110,10 +110,10 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 .portfolio { display: flex; }
 	.portfolio img { z-index: 1; height: 400px; border-radius: 5px; position: relative; 
 			    	right: 100px; top: 150px; }
-	.portfolio-info { border: 1px solid #999; height: 500px; width: 900px; position: relative;
-					right: 200px; top: 100px; border-radius: 10px;}
+	.portfolio-info { height: 500px; width: 500px; position: relative;
+					right: 200px; top: 100px; border-radius: 10px; background: url('../img/portfolio_02.jpg')no-repeat center/cover;}
 	.portfolio-info img { width: 400px; height: 400px; position: relative;
-		left: 300px; bottom: 500px; }
+		left: 300px; bottom: 700px; }
 	.titulo-portfolio { color: #fff; font-family: 'Lucida Handwriting', cursive; font-weight: 700; }
 /* Fim planos ----------------------------------------------------------------------------*/
 
