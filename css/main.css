@@ -8,9 +8,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		.destaque { grid-area: main; }
 		.conteudo { grid-area: section; }
 			.secao-missao { height: 25%; }
-			.secao-mensagem { height: 12%; }
+			.secao-mensagem { height: 8%; }
 			.secao-sobre { height: 45%; }
-			.portfolio { height: 23%; }
+			.portfolio { height: 27%; }
 		.rodape { grid-area: footer; }
 
 		.titulo-principal { font-family: 'Arial', sans-serif; color: #000; text-align: center; 
@@ -62,8 +62,16 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 		.mensagem-texto, .mensagem-autor { font-family: 'Montserrat', sans-serif; color: #fff; 
 			position: relative; left: 100px; }
-		.mensagem-texto { font-size: 1.5em; position: relative; left: 100px; top: 200px; }
-		.mensagem-autor { font-size: 1em; position: relative; left: 45%; top: 250px; }
+		.mensagem-texto { font-size: 1.5em; position: relative; left: 100px; top: 100px; }
+		.mensagem-autor { font-size: 1em; position: relative; left: 45%; top: 150px; }
+
+
+	.mensagem_02 { height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)),url('../img/portfolio_00.jpg')no-repeat center/cover; }
+		.mensagem-texto_02, .mensagem-autor_02 { font-family: 'Montserrat', sans-serif; color: #fff; 
+			position: relative; left: 100px; }
+		.mensagem-texto { font-size: 1.5em; position: relative; left: 100px;  }
+		.mensagem-autor { font-size: 1em; position: relative; left: 45%; }
 /*Fim Mensagem -------------------------------------------------------------------------------*/
 
 /*Sobre ------------------------------------------------------------------------------------*/
@@ -110,10 +118,11 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 .portfolio { display: flex; }
 	.portfolio img { z-index: 1; height: 400px; border-radius: 5px; position: relative; 
 			    	right: 100px; top: 150px; }
+	.portfolio-img-01 { background: url('../img/portfolio_02.jpg')no-repeat center/cover; }
 	.portfolio-info { height: 500px; width: 500px; position: relative;
 					right: 200px; top: 100px; border-radius: 10px; background: url('../img/portfolio_02.jpg')no-repeat center/cover;}
 	.portfolio-info img { width: 400px; height: 400px; position: relative;
-		left: 300px; bottom: 700px; }
+					left: 300px; bottom: 700px; }
 	.titulo-portfolio { color: #fff; font-family: 'Lucida Handwriting', cursive; font-weight: 700; }
 /* Fim planos ----------------------------------------------------------------------------*/
 
