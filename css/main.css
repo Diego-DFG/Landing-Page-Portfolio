@@ -93,8 +93,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 .secao-produtos { height: 40.3%; }
 	.card_1_ld { display: flex; width: 40%; height: 180px; position: relative; left: 10%; top: 30px; 
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 5px; border-right: none; 
-				box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
+				border-radius: 5px; border-right: none; }
 	.card_2_ld { display: flex; width: 40%; height: 180px; position: relative; left: 30%; top: 50px; 
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
 				border-radius: 5px; }	
@@ -116,29 +115,26 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 /*Planos ---------------------------------------------------------------------------------*/
 .portfolio { display: flex; }
-.portofolio h1 { position: relative; left: 300px; }
+.portfolio h1 { position: relative; left: 550px; }
 	.portfolio img { z-index: 1; height: 400px; border-radius: 5px; position: relative; 
 			    	right: 100px; top: 150px; }
 	.portfolio_card_1_ld { display: flex; width: 60%; height: 400px; position: relative; 
 		right: 250px; top: 200px; 
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 10px; }
+				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
 	.portfolio_card_2_ld { display: flex; width: 60%; height: 400px; position: relative; 
 		left: 210px; bottom: 200px; 
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 10px; }	
+				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }	
 	.portfolio_card_3_ld { display: flex; width: 60%; height: 400px; position: relative; 
 		bottom: 600px; left: 670px;
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 10px; }	
-	.portfolio_img_01{width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/english.png')no-repeat top/cover; 
+				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }	
+	.portfolio_img_01{width: 50%; height: 100%; background: url('../img/english.png')no-repeat top/cover; 
 			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
-	.portfolio_img_02{width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/alma.png')no-repeat top/cover; 
+	.portfolio_img_02{width: 50%; height: 100%; background: url('../img/alma.png')no-repeat top/cover; 
 			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
-	.portfolio_img_03{width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
-			rgba(0,0,0,0.5)),url('../img/dev.png')no-repeat top/cover; 
+	.portfolio_img_03{width: 50%; height: 100%; background: url('../img/dev.png')no-repeat top/cover; 
 			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 	.portfolio_texto_01, .portfolio_texto_02, .portfolio_texto_03 { width: 50%; height: 100%; 
 			text-align: center; margin-top: 1em; }
