@@ -121,15 +121,18 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.portfolio_card_1_ld { display: flex; width: 60%; height: 400px; position: relative; 
 		right: 250px; top: 200px; 
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
+				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09);
+				 }
 	.portfolio_card_2_ld { display: flex; width: 60%; height: 400px; position: relative; 
 		left: 210px; bottom: 200px; 
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }	
+				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
+				 }	
 	.portfolio_card_3_ld { display: flex; width: 60%; height: 400px; position: relative; 
 		bottom: 600px; left: 670px;
 				border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }	
+				border-radius: 10px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
+				 }	
 	.portfolio_img_01{width: 50%; height: 100%; background: url('../img/english.png')no-repeat top/cover; 
 			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 	.portfolio_img_02{width: 50%; height: 100%; background: url('../img/alma.png')no-repeat top/cover; 
@@ -138,10 +141,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 	.portfolio_texto_01, .portfolio_texto_02, .portfolio_texto_03 { width: 50%; height: 100%; 
 			text-align: center; margin-top: 1em; }
+
 /* Fim planos ----------------------------------------------------------------------------*/
 
 /*Rodape -------------------------------------------------------------------------------------*/
-.rodape { background: #222; }
+.rodape { background: #222; display: flex; color: #fff; }
+.contato { list-style: none; }
+.social_media { display: flex; }
+.social_media li { margin-right: 1em; list-style: none; }
 /*Fim rodape --------------------------------------------------------------------------------*/
 
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
