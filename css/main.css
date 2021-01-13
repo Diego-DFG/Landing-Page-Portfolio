@@ -150,7 +150,10 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 .titulo-contato { font-size: 1.5em; margin-bottom: 1em; }
 .social_media { display: flex; position: relative; left: 5em; top: 2em; }
 .social_media li { margin-right: 1em; list-style: none; }
-.instagram { color: tomato; }
+.instagram { color: #ffb26b; }
+.whatsapp { color: #61b15a; }
+.rodape_img { height: 200px; position: relative; left: 15em; top: 2em;
+				border-radius: 50%; margin-right: 1em;}
 /*Fim rodape --------------------------------------------------------------------------------*/
 
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
