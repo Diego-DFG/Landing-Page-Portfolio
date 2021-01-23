@@ -4,7 +4,7 @@
 
 body { padding: 0; margin: 0; overflow-x: hidden; }
 	.wrapper { height: 5000px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
-		grid-template-rows: 14% 81% 5% }
+		grid-template-rows: 14% 81% 5%; }
 		.destaque { grid-area: main; }
 		.conteudo { grid-area: section; }
 			.secao-missao { height: 25%; }
@@ -162,7 +162,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 420px) {
+@media (max-width: 1000px) {
 	/* Navegação */
 	.nav-item-missao { position: relative; left: 1.5em; }
 	.nav-item-servicos { position: relative; right: 1em; }
@@ -174,6 +174,18 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	/* Logo */
 	.logo { position: relative; right: 2.5em; }
 	.texto-navegacao { font-size: 1.5em; }
+	/* Fim logo */
+
+	/*Conteudo*/
+		/*Missão*/
+	.missao-img img { position: relative; height: 16em; right: 10em; }
+	.missao-descricao { position: relative; right: 10.5em; }
+	.missao-descricao-textos { height: 13em; top: 7em; width: 15em; top: 7.5em;}
+	.missao-descricao-textos span { position: relative; top: 0.5em; 
+		font-size: 1.5em; }
+	.missao-descricao-textos p { position: relative; font-size: 0.6em; 
+		top: 3em; left: 1.5em; text-align: center; }
+
 }
 
 @media (min-width: 421px) and (max-width: 720px) {
