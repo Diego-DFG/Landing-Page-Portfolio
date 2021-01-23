@@ -35,6 +35,10 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.navegacao-itens-lista li a:hover { color: tomato; }
 			.navegacao-itens-lista { position: relative; left: 30%; }
 			.redes-sociais { position: relative; left: 50%; }
+			.whatsapp { color: green; height: 50px; }
+	.whatsapp_icon { height: 50px; position: fixed; left: 90%; top: 85%; z-index: 9999; 
+		-webkit-backface-visibility: hidden; cursor: pointer; border: 0;
+    	text-decoration: none; transition: opacity 0.2s ease-out; font-size: 30px; }
 /*Fim da navegacao ---------------------------------------------------------------------------*/
 
 /*Destaque -------------------------------------------------------------------------------------*/
@@ -159,7 +163,17 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 420px) {
+	/* Navegação */
+	.nav-item-missao { position: relative; left: 1.5em; }
+	.nav-item-servicos { position: relative; right: 1em; }
+	.nav-item-documentacao { position: relative; right: 3em; }
+	.nav-item-sobre { position: relative; right: 25em; top: 2.5em; }
+	.nav-item-rodape { position: relative; right: 25em; top: 2.5em; }
+	/* Fim navegação */
 
+	/* Logo */
+	.logo { position: relative; right: 2.5em; }
+	.texto-navegacao { font-size: 1.5em; }
 }
 
 @media (min-width: 421px) and (max-width: 720px) {
