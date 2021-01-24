@@ -162,7 +162,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 1000px) {
+@media (max-width: 450px) {
 	/* Navegação */
 	.nav-item-missao { position: relative; left: 1.5em; }
 	.nav-item-servicos { position: relative; right: 1em; }
@@ -185,6 +185,13 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		font-size: 1.5em; }
 	.missao-descricao-textos p { position: relative; font-size: 0.6em; 
 		top: 3em; left: 1.5em; text-align: center; }
+
+	/*Mensagem*/
+	.mensagem-texto, .mensagem-autor, 
+	.mensagem-texto_02, .mensagem-autor_02 { 
+		position: relative; font-size: 1em; left: 1em; }
+	.mensagem-autor { left: 10em; }
+	.mensagem { width: 40%; }
 
 }
 
