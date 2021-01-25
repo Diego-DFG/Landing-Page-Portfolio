@@ -216,7 +216,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.sobre-motivacao-card:nth-child(4) { position: relative; top: 70em; right: 48em; }
 
 	/*Sobre serviços*/
-	.sobre-servicos { height: 10%; }
+	.sobre-servicos { height: 15%; }
+	.servicos-titulo { position: relative; right: 5em; }
+	.servicos-texto { position: relative; font-size: 1.5em; width: 40%; }
 
 }
 
