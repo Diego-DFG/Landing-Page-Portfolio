@@ -162,7 +162,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
+
+	/*Wrapper*/
+	.wrapper { height: 7600px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
+		grid-template-rows: 5% 90% 5%; }
+
+	/* Conteúdo */
+	.conteudo { grid-area: section; }
+			.secao-missao { height: 16%; }
+			.secao-mensagem { height: 6%; }
+			.secao-sobre { height: 55%; }
+			.portfolio { height: 28%; }
+
 	/* Navegação */
 	.nav-item-missao { position: relative; left: 1.5em; }
 	.nav-item-servicos { position: relative; right: 1em; }
@@ -178,8 +190,8 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 	/*Conteudo*/
 		/*Missão*/
-	.missao-img img { position: relative; height: 16em; right: 10em; }
-	.missao-descricao { position: relative; right: 10.5em; }
+	.missao-img img { position: relative; height: 16em; right: 10em; top: 25em; }
+	.missao-descricao { position: relative; right: 10.5em; top: 25em; }
 	.missao-descricao-textos { height: 13em; top: 7em; width: 15em; top: 7.5em;}
 	.missao-descricao-textos span { position: relative; top: 0.5em; 
 		font-size: 1.5em; }
@@ -192,6 +204,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		position: relative; font-size: 1em; left: 1em; }
 	.mensagem-autor { left: 10em; }
 	.mensagem { width: 40%; }
+
+	/*Sobre*/
+	/*Sobre motivação*/
+	.titulo-principal { right: 15em; font-size: 1.5em; }
+	.sobre-motivacao { height: 40%; }
+	.sobre-motivacao-card:nth-child(1) { position: relative; left: 5em; }
+
+	.sobre-motivacao-card:nth-child(2) { position: relative; top: 30em; right: 13em; }
+	.sobre-motivacao-card:nth-child(3) { position: relative; top: 50em; right: 30.5em; }
+	.sobre-motivacao-card:nth-child(4) { position: relative; top: 70em; right: 48em; }
+
+	/*Sobre serviços*/
+	.sobre-servicos { height: 10%; }
 
 }
 
