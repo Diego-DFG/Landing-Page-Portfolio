@@ -165,15 +165,15 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 @media (max-width: 1000px) {
 
 	/*Wrapper*/
-	.wrapper { height: 7600px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
+	.wrapper { height: 7000px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
 		grid-template-rows: 5% 90% 5%; }
 
 	/* Conteúdo */
 	.conteudo { grid-area: section; }
 			.secao-missao { height: 16%; }
 			.secao-mensagem { height: 6%; }
-			.secao-sobre { height: 55%; }
-			.portfolio { height: 28%; }
+			.secao-sobre { height: 45%; }
+			.portfolio { height: 38%; }
 
 	/* Navegação */
 	.nav-item-missao { position: relative; left: 1.5em; }
@@ -201,14 +201,14 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	/*Mensagem*/
 	.mensagem-texto, .mensagem-autor, 
 	.mensagem-texto_02, .mensagem-autor_02 { 
-		position: relative; font-size: 1em; left: 1em; }
-	.mensagem-autor { left: 10em; }
-	.mensagem { width: 40%; }
+		position: relative; font-size: 1.3em; left: 1em; }
+	.mensagem-autor, .mensagem-autor_02 { left: 10em; }
+	.mensagem, .mensagem_02 { width: 50%; }
 
 	/*Sobre*/
 	/*Sobre motivação*/
 	.titulo-principal { right: 15em; font-size: 1.5em; }
-	.sobre-motivacao { height: 40%; }
+	.sobre-motivacao { height: 50%; }
 	.sobre-motivacao-card:nth-child(1) { position: relative; left: 5em; }
 
 	.sobre-motivacao-card:nth-child(2) { position: relative; top: 30em; right: 13em; }
@@ -216,9 +216,15 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.sobre-motivacao-card:nth-child(4) { position: relative; top: 70em; right: 48em; }
 
 	/*Sobre serviços*/
-	.sobre-servicos { height: 15%; }
-	.servicos-titulo { position: relative; right: 5em; }
-	.servicos-texto { position: relative; font-size: 1.5em; width: 40%; }
+	.sobre-servicos { height: 20%; }
+	.servicos-titulo { position: relative; right: 4em; }
+	.servicos-texto { position: relative; font-size: 1.5em; width: 42%; }
+
+	/*Seção produtos*/
+	.secao-produtos { height: 20%; }
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld { position: relative; left: 1em; top: 10em; }
 
 }
 
