@@ -227,8 +227,13 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 	.card_3_ld { position: relative; left: 1em; top: 10em; }
 
 	/*Portfolio*/
-	.portfolio_card_1_ld { right: 7em; }
-	.portfolio_card_2_ld { top: 20em;  }
+	.portfolio { display: block; }
+	.portfolio-titulo-principal { position: relative; right: 1em; }
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld{ left: 4em; width: 40%; }
+	.portfolio_card_2_ld { top: 20em; }
+	.portfolio_card_3_ld { top: 27em; }
 
 }
 
