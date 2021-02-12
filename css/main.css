@@ -35,10 +35,13 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.navegacao-itens-lista li a:hover { color: tomato; }
 			.navegacao-itens-lista { position: relative; left: 30%; }
 			.redes-sociais { position: relative; left: 50%; }
-			.whatsapp { color: green; height: 50px; }
-	.whatsapp_icon { height: 50px; position: fixed; left: 90%; top: 85%; z-index: 9999; 
-		-webkit-backface-visibility: hidden; cursor: pointer; border: 0;
-    	text-decoration: none; transition: opacity 0.2s ease-out; font-size: 30px; }
+			#back-to-top { position: fixed; color: white; height: 50px; background: #888;
+								width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
+								right: 40px; }
+			#whatsapp, #instagram { position: fixed; color: white; height: 50px; background: green;
+								width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
+								right: 40px; top: 300px; }
+			#instagram { background: tomato; top: 350px; }
 /*Fim da navegacao ---------------------------------------------------------------------------*/
 
 /*Destaque -------------------------------------------------------------------------------------*/
@@ -149,20 +152,22 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 /* Fim planos ----------------------------------------------------------------------------*/
 
 /*Rodape -------------------------------------------------------------------------------------*/
-.rodape { background: #222; display: flex; color: #fff; }
-.contato { list-style: none; position: relative; top: 2em;}
-.titulo-contato { font-size: 1.5em; margin-bottom: 1em; }
-.social_media { display: flex; position: relative; left: 5em; top: 2em; }
-.social_media li { margin-right: 1em; list-style: none; }
-.instagram { color: #ffb26b; }
-.whatsapp { color: #61b15a; }
-.rodape_img { height: 200px; position: relative; left: 15em; top: 2em;
-				border-radius: 50%; margin-right: 1em;}
+footer { font-family: 'Montserrat', sans-serif; }
+	.rodape { background: #222; display: flex; color: #fff; }
+	.contato { list-style: none; position: relative; top: 2em;}
+	.titulo-contato { font-size: 1.5em; margin-bottom: 1em; }
+	.social_media { display: flex; position: relative; left: 5em; top: 2em; }
+	.social_media li { margin-right: 1em; list-style: none; }
+	.instagram { color: #ffb26b; }
+	.whatsapp { color: #61b15a; }
+	.rodape_img { height: 200px; position: relative; top: 2em;
+					border-radius: 50%; margin-right: 1em;}
+	.copyright { position: relative; top: 200px; right: 200px; }
 /*Fim rodape --------------------------------------------------------------------------------*/
 
 /*Breakpoints ------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
 
 	/*Wrapper*/
 	.wrapper { height: 7000px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
