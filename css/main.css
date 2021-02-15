@@ -49,7 +49,7 @@ body
  			#back-to-top 
 			{ position: fixed; color: white; height: 50px; background: #888;
 			width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
-			right: 40px; }
+			right: 40px; z-index: 9999;}
 
 			#whatsapp, 
 			#instagram 
@@ -75,7 +75,7 @@ body
 			color: #fff; font-weight: 800; }
 
 			.navegacao-itens-lista li 
-			{ margin-right: 1em; width: 130px; }
+			{ margin-right: 1em; width: 300px; }
 
 			.navegacao-itens-lista li a:hover 
 			{ color: tomato; }
@@ -88,10 +88,10 @@ body
 
 			.navegacao-itens-lista li, 
 			.redes-sociais li 
-			{ list-style: none; width: 100px; }
+			{ list-style: none; width: 200px; }
 
 			.navegacao-itens-lista 
-			{ position: relative; left: 30%; }
+			{ position: relative; left: 50%; }
 
 			.redes-sociais 
 			{ position: relative; left: 50%; }
@@ -103,9 +103,7 @@ body
 			{ color: #f2a365; }
 
 			.whatsapp 
-			{ color: #21bf73; }
-
-			
+			{ color: #21bf73; }			
 /*Fim da navegacao ---------------------------------------------------------------------------*/
 
 /*Destaque -------------------------------------------------------------------------------------*/
@@ -327,80 +325,161 @@ footer
 @media (max-width: 600px) {
 
 	/*Wrapper*/
-	.wrapper { height: 7000px; overflow: hidden; display: grid; grid-template-areas: "main" "section" "footer"; 
-		grid-template-rows: 5% 90% 5%; }
+	.wrapper 
+	{ height: 7000px; overflow: hidden; display: grid; 
+	grid-template-areas: "main" "section" "footer"; 
+	grid-template-rows: 5% 90% 5%; }
 
 	/* Conteúdo */
-	.conteudo { grid-area: section; }
-			.secao-missao { height: 16%; }
-			.secao-mensagem { height: 6%; }
-			.secao-sobre { height: 45%; }
-			.portfolio { height: 38%; }
+	.conteudo 
+	{ grid-area: section; }
+
+	.secao-missao 
+	{ height: 16%; }
+			
+	.secao-mensagem 
+	{ height: 6%; }
+
+	.secao-sobre 
+	{ height: 45%; }
+
+	.portfolio 
+	{ height: 38%; }
 
 	/* Navegação */
-	.nav-item-missao { position: relative; left: 1.5em; }
-	.nav-item-servicos { position: relative; right: 1em; }
-	.nav-item-documentacao { position: relative; right: 3em; }
-	.nav-item-sobre { position: relative; right: 25em; top: 2.5em; }
-	.nav-item-rodape { position: relative; right: 25em; top: 2.5em; }
+	.nav-item-missao 
+	{ position: relative; right: 300px; }
+
+	.nav-item-servicos 
+	{ position: relative; right: 400px; }
+
+	.nav-item-documentacao 
+	{ position: relative; right: 500px; }
+
+	.nav-item-sobre 
+	{ position: relative; right: 890px; top: 2.5em; }
+
+	.nav-item-rodape 
+	{ position: relative; right: 970px; top: 2.5em; }
 	/* Fim navegação */
 
 	/* Logo */
-	.logo { position: relative; right: 2.5em; }
-	.texto-navegacao { font-size: 1.5em; }
+	.logo 
+	{ position: relative; right: 2.5em; }
+
+	.texto-navegacao 
+	{ font-size: 1.5em; }
 	/* Fim logo */
 
 	/*Conteudo*/
 		/*Missão*/
-	.missao-img img { position: relative; height: 16em; right: 10em; top: 25em; }
-	.missao-descricao { position: relative; right: 10.5em; top: 25em; }
-	.missao-descricao-textos { height: 13em; top: 7em; width: 15em; top: 7.5em;}
-	.missao-descricao-textos span { position: relative; top: 0.5em; 
-		font-size: 1.5em; }
-	.missao-descricao-textos p { position: relative; font-size: 0.6em; 
-		top: 3em; left: 1.5em; text-align: center; }
+	.missao-img img 
+	{ position: relative; height: 16em; right: 10em; top: 25em; }
+
+	.missao-descricao 
+	{ position: relative; right: 10.5em; top: 25em; }
+
+	.missao-descricao-textos 
+	{ height: 13em; top: 7em; width: 15em; top: 7.5em;}
+
+	.missao-descricao-textos span 
+	{ position: relative; top: 0.5em; 
+	font-size: 1.5em; }
+
+	.missao-descricao-textos p 
+	{ position: relative; font-size: 0.6em; 
+	top: 3em; left: 1.5em; text-align: center; }
 
 	/*Mensagem*/
-	.mensagem-texto, .mensagem-autor, 
-	.mensagem-texto_02, .mensagem-autor_02 { 
-		position: relative; font-size: 1.3em; left: 1em; }
-	.mensagem-autor, .mensagem-autor_02 { left: 10em; }
-	.mensagem, .mensagem_02 { width: 50%; }
+	.mensagem-texto, 
+	.mensagem-autor, 
+	.mensagem-texto_02, 
+	.mensagem-autor_02 
+	{ position: relative; font-size: 1.1em; left: 1em; width: 60%; 
+		text-align: center; }
+
+	.mensagem-autor,
+	 .mensagem-autor_02 
+	 { left: 20px; }
+
+	.mensagem, 
+	.mensagem_02 
+	{ width: 50%; }
 
 	/*Sobre*/
 	/*Sobre motivação*/
-	.titulo-principal { right: 15em; font-size: 1.5em; }
-	.sobre-motivacao { height: 50%; }
-	.sobre-motivacao-card:nth-child(1) { position: relative; left: 5em; }
+	.titulo-principal 
+	{ right: 19em; font-size: 1.3em; }
 
-	.sobre-motivacao-card:nth-child(2) { position: relative; top: 30em; right: 13em; }
-	.sobre-motivacao-card:nth-child(3) { position: relative; top: 50em; right: 30.5em; }
-	.sobre-motivacao-card:nth-child(4) { position: relative; top: 70em; right: 48em; }
+	.sobre-motivacao 
+	{ height: 50%; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; left: 2em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 30em; right: 15.5em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 50em; right: 33em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 70em; right: 50.5em; }
 
 	/*Sobre serviços*/
-	.sobre-servicos { height: 20%; }
-	.servicos-titulo { position: relative; right: 4em; }
-	.servicos-texto { position: relative; font-size: 1.5em; width: 42%; }
+	.sobre-servicos 
+	{ height: 20%; }
+
+	.servicos-titulo 
+	{ position: relative; right: 5em; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; width: 32%; }
 
 	/*Seção produtos*/
-	.secao-produtos { height: 20%; }
+	.secao-produtos 
+	{ height: 20%; }
+
 	.card_1_ld, 
 	.card_2_ld, 
-	.card_3_ld { position: relative; left: 1em; top: 10em; }
+	.card_3_ld 
+	{ position: relative; left: 1em; top: 10em; width: 30%; }
+
+	.landing_page_texto p,
+	.ecommerce_texto p,
+	.blog_texto p 
+	{ font-size: 0.8em; }
 
 	/*Portfolio*/
-	.portfolio { display: block; }
-	.portfolio-titulo-principal { position: relative; right: 1em; }
+	.portfolio 
+	{ display: block; }
+
+	.portfolio-titulo-principal 
+	{ position: relative; right: 1em; }
+
 	.portfolio_card_1_ld, 
 	.portfolio_card_2_ld, 
-	.portfolio_card_3_ld{ left: 4em; width: 40%; }
-	.portfolio_card_2_ld { top: 20em; }
-	.portfolio_card_3_ld { top: 27em; }
+	.portfolio_card_3_ld
+	{ left: 1em; width: 30%; }
+
+	.portfolio_card_2_ld
+	{ top: 20em; }
+
+	.portfolio_card_3_ld 
+	{ top: 27em; }
 
 	/*Rodape*/
-	.rodape { display: block; }
-	.social_media { position: relative; left: 1em; top: 3em; }
-	.rodape_img { height: 50px; bottom: 10em; }
+	.rodape
+	{ display: block; }
+
+	.copyright 
+	{ position: relative; left: 60px; }
+
+	.social_media 
+	{ position: relative; left: 1em; top: 3em; }
+
+	.rodape_img 
+	{ height: 100px; bottom: 20em; left: 150px; }
 
 }
 
