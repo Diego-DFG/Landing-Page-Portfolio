@@ -91,7 +91,7 @@ body
 			{ list-style: none; width: 200px; }
 
 			.navegacao-itens-lista 
-			{ position: relative; left: 50%; }
+			{ position: relative; left: 45%; }
 
 			.redes-sociais 
 			{ position: relative; left: 50%; }
@@ -262,19 +262,19 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 
 	.portfolio_card_1_ld 
 	{ display: flex; width: 60%; height: 400px; position: relative; 
-	right: 250px; top: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	right: 200px; top: 200px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09);
 				 }
 	.portfolio_card_2_ld 
 	{ display: flex; width: 60%; height: 400px; position: relative; 
-	left: 210px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	left: 255px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
 				 }	
 	.portfolio_card_3_ld 
 	{ display: flex; width: 60%; height: 400px; position: relative; 
-	bottom: 600px; left: 670px; border: 1px solid rgba(0,0,0,0.09); 
+	bottom: 600px; left: 700px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
 
@@ -301,7 +301,7 @@ footer
 	{ background: #222; display: flex; color: #fff; }
 
 	.rodape_img 
-	{ height: 200px; position: relative; top: 2em;
+	{ height: 200px; position: relative; top: 2em; left: 100px;
 	border-radius: 50%; margin-right: 1em;}
 
 	.copyright 
@@ -348,19 +348,19 @@ footer
 
 	/* Navegação */
 	.nav-item-missao 
-	{ position: relative; right: 300px; }
+	{ position: relative; right: 240px; }
 
 	.nav-item-servicos 
-	{ position: relative; right: 400px; }
+	{ position: relative; right: 340px; }
 
 	.nav-item-documentacao 
-	{ position: relative; right: 500px; }
+	{ position: relative; right: 440px; }
 
 	.nav-item-sobre 
-	{ position: relative; right: 890px; top: 2.5em; }
+	{ position: relative; right: 850px; top: 2.5em; }
 
 	.nav-item-rodape 
-	{ position: relative; right: 970px; top: 2.5em; }
+	{ position: relative; right: 930px; top: 2.5em; }
 	/* Fim navegação */
 
 	/* Logo */
