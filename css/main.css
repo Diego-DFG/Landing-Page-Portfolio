@@ -281,7 +281,11 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	.portfolio_texto_01, 
 	.portfolio_texto_02, 
 	.portfolio_texto_03 
-	{ width: 50%; height: 100%; text-align: center; margin-top: 1em; }
+	{ width: 50%; height: 100%; text-align: center; margin-top: 1em;
+	text-decoration: none; color: #000; }
+
+	.portfolio a:hover
+	{ text-decoration: none; }
 
 	.portfolio h1 
 	{ position: relative; left: 550px; }
