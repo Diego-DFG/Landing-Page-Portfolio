@@ -81,7 +81,7 @@ body
 			{ color: tomato; }
 
 			#instagram 
-			{ background: tomato; top: 350px; }
+			{ background: #eb596e; top: 350px; }
 
 			.navegacao-itens 
 			{ position: relative; right: 25%; }
@@ -131,7 +131,7 @@ height: 650px; }
 
 		.missao-texto 
 		{ width: 90%; left: 10%; position: relative; left: 50px; top: 100px;
-		color: rgba(0,0,0,0.5); }
+		color: rgba(0,0,0,0.5); font-size: 27px; }
 
 		.missao-img 
 		{ position: relative; left: 15%; top: 100px; }
@@ -195,41 +195,42 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	{ font-size: 5em; position: relative; top: 100px; }
 
 	.servicos-texto 
-	{ font-size: 2em; position: relative; top: 200px; }
+	{ font-size: 2.5em; position: relative; top: 200px; }
 
 /*Fim sobre --------------------------------------------------------------------------------*/
 
 /*Servicos --------------------------------------------------------------------------------*/
 .secao-produtos 
-{ height: 40.3%; }
+{ height: 40.3%; color: #383e56; }
+
+	.secao-produtos h3 
+	{ font-weight: 800; color: tomato; text-transform: uppercase; 
+	font-family: 'Montserrat', sans-serif; }
 
 	.card_1_ld 
 	{ display: flex; width: 40%; height: 180px; position: relative; left: 10%; 
-	top: 30px; border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-	border-radius: 5px; border-right: none; }
+	top: 30px; border: 3px solid rgba(0,0,0,0.1); border-radius: 10px; }
 
 	.card_2_ld 
 	{ display: flex; width: 40%; height: 180px; position: relative; left: 30%; top: 50px; 
-	border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-	border-radius: 5px; }	
+	border: 3px solid rgba(0,0,0,0.1); border-radius: 10px; }	
 
 	.card_3_ld 
 	{ display: flex; width: 40%; height: 180px; position: relative; left: 50%; top: 70px; 
-	border: 1px solid rgba(0,0,0,0.09); border: 1px solid rgba(0,0,0,0.09); 
-	border-radius: 5px; }	
+	border: 3px solid rgba(0,0,0,0.1); border-radius: 10px; }	
 
 	.landing_page_img 
-	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.1), 
 	rgba(0,0,0,0.5)),url('../img/Red_servicos_04.jpg')no-repeat center/cover; 
 	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 
 	.ecommerce_img 
-	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.1), 
 	rgba(0,0,0,0.5)),url('../img/Red_servicos_06.jpg')no-repeat center/cover; 
 	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 
 	.blog_img 
-	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.1), 
 	rgba(0,0,0,0.5)),url('../img/Red_servicos_08.jpg')no-repeat center/cover; 
 	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 
@@ -245,7 +246,7 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 { display: flex; }
 
 	.portfolio_img_01 
-	{ width: 50%; height: 100%; background: url('../img/english.png')no-repeat top/cover; 
+	{ width: 50%; height: 100%; background: url('../img/atelier.png')no-repeat top/cover; 
 	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 
 	.portfolio_img_02 
@@ -253,7 +254,7 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 
 	.portfolio_img_03 
-	{ width: 50%; height: 100%; background: url('../img/dev.png')no-repeat top/cover; 
+	{ width: 50%; height: 100%; background: url('../img/consult.png')no-repeat top/cover; 
 	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 
 	.portfolio img 
@@ -261,20 +262,20 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	right: 100px; top: 150px; }
 
 	.portfolio_card_1_ld 
-	{ display: flex; width: 60%; height: 400px; position: relative; 
-	right: 200px; top: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	{ display: flex; width: 400px; height: 400px; position: relative; 
+	right: 230px; top: 200px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09);
 				 }
 	.portfolio_card_2_ld 
-	{ display: flex; width: 60%; height: 400px; position: relative; 
-	left: 255px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	{ display: flex; width: 400px; height: 400px; position: relative; 
+	left: 230px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
 				 }	
 	.portfolio_card_3_ld 
-	{ display: flex; width: 60%; height: 400px; position: relative; 
-	bottom: 600px; left: 700px; border: 1px solid rgba(0,0,0,0.09); 
+	{ display: flex; width: 400px; height: 400px; position: relative; 
+	bottom: 600px; left: 680px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
 
@@ -288,7 +289,14 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	{ text-decoration: none; }
 
 	.portfolio h1 
-	{ position: relative; left: 550px; }
+	{ position: relative; left: 600px; top: 70px; 
+	font-family: 'Montserrat', sans-serif; font-weight: bold; }
+
+	.portfolio h3
+	{ font-family: 'Montserrat', sans-serif; font-weight: bold; }
+
+	.portfolio p 
+	{ position: relative; top: 100px; font-size: 25px; }
 /* Fim planos ----------------------------------------------------------------------------*/
 
 /*Rodape -------------------------------------------------------------------------------------*/
