@@ -41,7 +41,7 @@ body
 
 /*Navegacao -----------------------------------------------------------------------------------*/
 .navegacao 
-{ background: #222; height: 80px; width: 100%; }
+{ background: #fff; height: 80px; width: 100%; position: fixed; z-index: 9999; }
 
 			#check
 			{ display: none; }
@@ -63,28 +63,38 @@ body
 			line-height: 80px; cursor: pointer; display: none; }
 
 			.navegacao-itens-lista
-			{ float: right; margin-right: 40px; list-style: none; }
+			{ float: right; margin-right: 40px; list-style: none; height: 100%; }
 
 			.navegacao-itens-lista li 
 			{ display: inline-block; line-height: 80px; margin: 0 5px; }
 
+			.navegacao-itens-lista li a:hover 
+			{ text-decoration: none; }
+
 			.navegacao-itens-lista li a 
-			{ color: white; font-size: 16px; text-transform: uppercase; 
+			{ color: #000; font-size: 16px; text-transform: uppercase; 
 				padding: 7px 10px; border-radius: 5px; }
 
-			a.active, a:hover 
-			{ background: #444; text-decoration: none; }
+			.navegacao-itens-lista li a.active, 
+			.navegacao-itens-lista li a:hover
+			{ background: #28527a; color: white; }
 
  			#back-to-top 
 			{ position: fixed; color: white; height: 50px; background: #888;
 			width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
-			right: 40px; z-index: 9999;}
+			right: 40px; z-index: 9999; top: 100px; }
 
-			#whatsapp, 
-			#instagram 
-			{ position: fixed; color: white; height: 50px; background: green;
-				width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
-				right: 40px; top: 300px; z-index: 9999; }
+			#instagram
+			{ background: linear-gradient(45deg, yellow, red, blue); 
+			position: fixed; top: 350px; }
+
+			#whatsapp 
+			{ position: fixed; top: 300px; background: green; }
+
+			#instagram,
+			#whatsapp
+			{ color: white; height: 50px; width: 50px; text-align: center; 
+			font-size: 30px; border-radius: 3px; right: 40px; z-index: 9999; }
 
 			/*.texto-navegacao 
 			{  color: #fff; font-size: 2em; }
