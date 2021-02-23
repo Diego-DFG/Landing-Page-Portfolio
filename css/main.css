@@ -6,9 +6,9 @@ body
 { padding: 0; margin: 0; overflow-x: hidden; text-decoration: none; }
 
 .wrapper 
-{ height: 5000px; overflow: hidden;
+{ height: 4600px; overflow: hidden;
 	display: grid; grid-template-areas: "main" "section" "footer"; 
-	grid-template-rows: 14% 81% 5%; box-sizing: border-box; }
+	grid-template-rows: 14% 78% 8%; box-sizing: border-box; }
 
 		.titulo-principal 
 		{ font-family: 'Arial', sans-serif; color: #000; 
@@ -25,16 +25,16 @@ body
 		{ grid-area: main; }
 
 		.secao-mensagem 
-		{ height: 6%; }
+		{ height: 5%; }
 
 		.secao-missao 
-		{ height: 25%; }
+		{ height: 22%; }
 
 		.secao-sobre 
-		{ height: 45%; }
+		{ height: 48%; }
 
 		.portfolio 
-		{ height: 29%; }
+		{ height: 30%; }
 
 
 /*End of general styles --------------------------------------------------------------------------------------*/
@@ -86,50 +86,15 @@ body
 
 			#instagram
 			{ background: linear-gradient(45deg, yellow, red, blue); 
-			position: fixed; top: 350px; }
+			position: fixed; top: 550px; }
 
 			#whatsapp 
-			{ position: fixed; top: 300px; background: green; }
+			{ position: fixed; top: 500px; background: green; }
 
 			#instagram,
 			#whatsapp
 			{ color: white; height: 50px; width: 50px; text-align: center; 
 			font-size: 30px; border-radius: 3px; right: 40px; z-index: 9999; }
-
-			/*.texto-navegacao 
-			{  color: #fff; font-size: 2em; }
-
-			
-
-			.titulo-navegacao 
-			{ position: relative; top: 170px; left: 100px }
-
-			.navegacao-itens-lista li a, 
-			.redes-sociais li a 
-			{ text-decoration: none; font-size: 1.2em; }
-
-			.navegacao-itens-lista li a 
-			{ font-family: 'Montserrat', sans-serif; 
-			color: #fff; font-weight: 800; }
-
-			.navegacao-itens-lista li 
-			{ margin-right: 1em; width: 300px; }
-
-			.navegacao-itens-lista li a:hover 
-			{ color: tomato; }
-
-			#instagram 
-			{ background: #eb596e; top: 350px; }
-
-			.navegacao-itens 
-			{ position: relative; right: 25%; }
-
-			.navegacao-itens-lista li, 
-			.redes-sociais li 
-			{ list-style: none; width: 200px; }
-
-			.navegacao-itens-lista 
-			{ position: relative; left: 45%; }*/
 
 			.redes-sociais 
 			{ position: relative; left: 50%; }
@@ -196,16 +161,16 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	rgba(0,0,0,0.5)),url('../img/portfolio_00.jpg')no-repeat center/cover; }
 
 	.mensagem-texto_02 
-	{ font-size: 1.5em; position: relative; left: 250px; top: 100px;  }
+	{ font-size: 1.5em; position: relative; left: 250px; top: 50px;  }
 
 	.mensagem-texto 
-	{ font-size: 1.5em; position: relative; left: 100px; top: 100px; }
+	{ font-size: 1.5em; position: relative; left: 100px; top: 50px; }
 
 	.mensagem-autor
-	{ font-size: 1em; position: relative; left: 45%; top: 150px; }
+	{ font-size: 1em; position: relative; left: 45%; top: 100px; }
 
 	.mensagem-autor_02 
-	{ font-size: 1em; position: relative; left: 45%; top: 150px; }
+	{ font-size: 1em; position: relative; left: 45%; top: 100px; }
 /*Fim Mensagem -------------------------------------------------------------------------------*/
 
 /*Sobre ------------------------------------------------------------------------------------*/
@@ -307,13 +272,13 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 				 }
 	.portfolio_card_2_ld 
 	{ display: flex; width: 400px; height: 400px; position: relative; 
-	left: 230px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	left: 235px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
 				 }	
 	.portfolio_card_3_ld 
 	{ display: flex; width: 400px; height: 400px; position: relative; 
-	bottom: 600px; left: 680px; border: 1px solid rgba(0,0,0,0.09); 
+	bottom: 600px; left: 700px; border: 1px solid rgba(0,0,0,0.09); 
 	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
 	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
 
@@ -327,8 +292,8 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	{ text-decoration: none; }
 
 	.portfolio h1 
-	{ position: relative; left: 600px; top: 70px; 
-	font-family: 'Montserrat', sans-serif; font-weight: bold; }
+	{ position: relative; left: 570px; top: 70px; 
+	font-family: 'Montserrat', sans-serif; font-weight: 800; }
 
 	.portfolio h3
 	{ font-family: 'Montserrat', sans-serif; font-weight: bold; }
@@ -345,13 +310,13 @@ footer
 	{ display: flex; position: relative; left: 5em; top: 2em; }
 
 	.contato 
-	{ list-style: none; position: relative; top: 2em;}
+	{ list-style: none; position: relative; top: 2em; }
 
 	.rodape 
 	{ background: #222; display: flex; color: #fff; }
 
 	.rodape_img 
-	{ height: 200px; position: relative; top: 2em; left: 100px;
+	{ height: 200px; width: 200px; position: relative; top: 50px; left: 30px;
 	border-radius: 50%; margin-right: 1em;}
 
 	.copyright 
@@ -529,7 +494,7 @@ footer
 	{ position: relative; left: 1em; top: 3em; }
 
 	.rodape_img 
-	{ height: 100px; bottom: 20em; left: 150px; }
+	{ height: 50px; bottom: 20em; left: 150px; }
 
 }
 
