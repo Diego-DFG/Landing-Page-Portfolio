@@ -3,12 +3,12 @@
 /*General Styles ----------------------------------------------------------------------------------------------*/
 
 body 
-{ padding: 0; margin: 0; overflow-x: hidden; }
+{ padding: 0; margin: 0; overflow-x: hidden; text-decoration: none; }
 
 .wrapper 
 { height: 5000px; overflow: hidden;
 	display: grid; grid-template-areas: "main" "section" "footer"; 
-	grid-template-rows: 14% 81% 5%; }
+	grid-template-rows: 14% 81% 5%; box-sizing: border-box; }
 
 		.titulo-principal 
 		{ font-family: 'Arial', sans-serif; color: #000; 
@@ -40,11 +40,40 @@ body
 /*End of general styles --------------------------------------------------------------------------------------*/
 
 /*Navegacao -----------------------------------------------------------------------------------*/
-.navegacao, 
-.redes-sociais,
-.navegacao-itens, 
-.navegacao-itens-lista 
- { display: flex; }
+.navegacao 
+{ background: #222; height: 80px; width: 100%; }
+
+			#check
+			{ display: none; }
+
+			.branch 
+			{ color: #fff; }
+
+			label.logo
+			{ margin-left: 50px; line-height: 70px; }
+
+			.logo img 
+			{ height: 100%; }
+
+			.logo-navegacao 
+			{ height: 70px; }
+
+			.checkbtn
+			{ color: white; font-size: 30px; float: right; margin-right: 300px;
+			line-height: 80px; cursor: pointer; display: none; }
+
+			.navegacao-itens-lista
+			{ float: right; margin-right: 40px; list-style: none; }
+
+			.navegacao-itens-lista li 
+			{ display: inline-block; line-height: 80px; margin: 0 5px; }
+
+			.navegacao-itens-lista li a 
+			{ color: white; font-size: 16px; text-transform: uppercase; 
+				padding: 7px 10px; border-radius: 5px; }
+
+			a.active, a:hover 
+			{ background: #444; text-decoration: none; }
 
  			#back-to-top 
 			{ position: fixed; color: white; height: 50px; background: #888;
@@ -57,11 +86,10 @@ body
 				width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
 				right: 40px; top: 300px; z-index: 9999; }
 
-			.texto-navegacao 
-			{ font-family: 'Monoton', cursive; color: #fff; font-size: 2em; }
+			/*.texto-navegacao 
+			{  color: #fff; font-size: 2em; }
 
-			.branch 
-			{ color: #fff; position: relative; top: 200px; left: 50px; }
+			
 
 			.titulo-navegacao 
 			{ position: relative; top: 170px; left: 100px }
@@ -91,7 +119,7 @@ body
 			{ list-style: none; width: 200px; }
 
 			.navegacao-itens-lista 
-			{ position: relative; left: 45%; }
+			{ position: relative; left: 45%; }*/
 
 			.redes-sociais 
 			{ position: relative; left: 50%; }
@@ -499,6 +527,21 @@ footer
 
 }
 
-@media (min-width: 721px) and (max-width: 920px) {
+@media (max-width: 952px) {
+
+	.navegacao
+	{ height: 100px; }
+
+	.navegacao-itens-lista
+	{ display: fixed; height: 100vh; width: 100%; background: #222; }
+
+	.navegacao-itens-lista li
+	{  }
+
+	.navegacao-itens-lista li a 
+	{ }
+
+	.checkbtn 
+	{ display: block; }
 
 }
