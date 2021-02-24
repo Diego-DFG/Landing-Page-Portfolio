@@ -299,7 +299,7 @@ rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
 	{ font-family: 'Montserrat', sans-serif; font-weight: bold; }
 
 	.portfolio p 
-	{ position: relative; top: 100px; font-size: 25px; }
+	{ position: relative; top: 100px; font-size: 18px; }
 /* Fim planos ----------------------------------------------------------------------------*/
 
 /*Rodape -------------------------------------------------------------------------------------*/
@@ -519,4 +519,99 @@ footer
 	.checkbtn 
 	{ display: block; }
 
+}
+
+@media (max-width: 1100px) {
+
+	/* Botões de redes sociais */
+
+	#whatsapp 
+	{ top: 400px; }
+	#instagram
+	{ top: 450px; }
+
+	/* Fim botões de redes sociais */
+
+
+
+	/* Seção conteúdo */
+
+	.conteudo
+	{ width: 100%; }
+
+	/* Fim da seção conteúdo */
+
+
+
+	/* Seção missão */
+
+	.secao-missao
+	{ width: 100%; }
+
+	.missao-descricao-textos
+	{ width: 500px; height: 300px; top: 170px; left: 140px; }
+
+	.missao-texto
+	{ font-size: 20px; }
+
+	.missao-img
+	{ width: 300px; left: 160px; }
+
+	.missao-img img
+	{ width: 100%; }
+
+	/* Fim da seção missão */
+
+
+
+	/* Mensagem */
+
+	.mensagem-texto_02 
+	{ font-size: 1.3em; left: 200px; }
+
+	.mensagem-texto 
+	{ font-size: 1.3em; left: 65px; }
+
+	.mensagem-autor
+	{ font-size: 0.8em; left: 500px; }
+
+	.mensagem-autor_02 
+	{ font-size: 0.8em; }
+
+	/* Fim da seção mensagem */
+
+
+
+	/* Seção motivação */
+
+	.sobre-motivacao-card 
+	{ height: 230px; width: 230px; }
+
+	.card-titulo 
+	{ font-size: 3em; font-weight: bold; color: tomato; }
+
+	.card-texto
+	{ font-size: 0.9em; }
+
+	/* Fim da seção motivação */
+
+
+
+	/* Portfolio */
+
+	.portfolio h1
+	{ left: 450px; }
+
+	.portfolio_card_1_ld,
+	.portfolio_card_2_ld,
+	.portfolio_card_3_ld 
+	{ width: 300px; height: 300px; }
+
+	.portfolio_card_2_ld
+	{ bottom: 100px; left: 150px; }
+
+	.portfolio_card_3_ld
+	{ bottom: 400px; left: 530px; }
+
+	/* Fim do portfolio */
 }
