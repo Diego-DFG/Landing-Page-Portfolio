@@ -323,28 +323,36 @@ footer
 @media (max-width: 600px) {
 
 
-
 	/*Wrapper*/
 	.wrapper 
-	{ height: 7000px; overflow: hidden; display: grid; 
+	{ height: 5500px; overflow: hidden; display: grid; 
 	grid-template-areas: "main" "section" "footer"; 
 	grid-template-rows: 5% 90% 5%; }
+
+	/* Destaque */
+
+	/* Fim de destaque */
 
 	/* Conteúdo */
 	.conteudo 
 	{ grid-area: section; }
 
 	.secao-missao 
-	{ height: 16%; }
+	{ height: 13%; }
 			
 	.secao-mensagem 
-	{ height: 6%; }
+	{ height: 7%; }
 
 	.secao-sobre 
-	{ height: 45%; }
+	{ height: 46%; }
 
 	.portfolio 
-	{ height: 38%; }
+	{ height: 39%; }
+
+		/* Navegacao */
+
+	.checkbtn 
+	{ line-height: 60px; }
 
 	/* Logo */
 	.logo 
@@ -354,6 +362,17 @@ footer
 	{ font-size: 1.5em; }
 	/* Fim logo */
 
+
+
+	/*Destaque*/
+	.destaque 
+	{ background: linear-gradient(rgba(0,0,0,0.7), 
+	rgba(0,0,0,0.7)),url('../img/Red_negocios_00.jpg')no-repeat; 
+	height: 383px; }
+	/*Fim da área de destaque*/
+
+
+
 	/*Conteudo*/
 		/*Missão*/
 
@@ -361,10 +380,10 @@ footer
 	{ position: relative; right: 150px; }
 
 	.missao-img
-	{ top: 450px; height: 400px; }
+	{ top: 180px; height: 400px; }
 
 	.missao-descricao
-	{ top: 500px; height: 300px; left: 130px; width: 300px; }
+	{ top: 230px; height: 300px; left: 130px; width: 300px; }
 
 	.missao-descricao h2
 	{ left: 50px; }
@@ -374,20 +393,23 @@ footer
 	left: 20px; }
 
 	/*Mensagem*/
-	.mensagem-texto, 
-	.mensagem-autor, 
-	.mensagem-texto_02, 
-	.mensagem-autor_02 
-	{ position: relative; font-size: 1.1em; left: 1em; width: 60%; 
-		text-align: center; }
-
-	.mensagem-autor,
-	 .mensagem-autor_02 
-	 { left: 20px; }
-
+	
 	.mensagem, 
 	.mensagem_02 
-	{ width: 50%; }
+	{ width: 60%; height: 60%; }	
+
+	.mensagem p
+	{ font-size: 22px; width: 80%; left: 40px; }
+
+	.mensagem span
+	{ left: 260px; }
+
+	.mensagem_02 p
+	{ font-size: 22px; width: 80%; left: 50px; }
+
+	.mensagem_02 span
+	{ left: 280px; }
+
 
 	/*Sobre*/
 	/*Sobre motivação*/
@@ -482,9 +504,11 @@ footer
 	/* Navegação */
 
 	.navegacao
-	{ height: 100px; }
+	{ height: 60px; }
 
-	 .checkbtn { display: block; margin-top: 20px; margin-right: 100px; }
+	 .checkbtn { display: block; margin-right: 100px; }
+
+	label.logo { line-height: 0; }
 
     ul { position: fixed; width: 100%; height: 100vh; background: #2c3e50;
          top: 80px; left: -100%; transition: all .5s; text-align: center; }
