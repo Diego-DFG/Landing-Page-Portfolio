@@ -46,38 +46,24 @@ body
 			#check
 			{ display: none; }
 
-			.branch 
-			{ color: #fff; }
+			nav { background: #0082e6; height: 80px; width: 100%; }
 
-			label.logo
-			{ margin-left: 50px; line-height: 70px; }
+			label.logo{ color: white; font-size: 34px; line-height: 80px; 
+			        padding: 0 100px; font-weight: bold; }
 
-			.logo img 
-			{ height: 100%; }
+			nav ul { float: right; margin-right: 20px; }
 
-			.logo-navegacao 
-			{ height: 70px; }
+			nav ul li { display: inline-block; line-height: 80px; margin: 0 5px; }
 
-			.checkbtn
-			{ color: white; font-size: 30px; float: right; margin-right: 300px;
-			line-height: 80px; cursor: pointer; display: none; }
+			nav ul li a { color: white; font-size: 17px; padding: 7px 13px; 
+			        border-radius: 3px; text-transform: uppercase; }
 
-			.navegacao-itens-lista
-			{ float: right; margin-right: 40px; list-style: none; height: 100%; }
+			a.active, a:hover { background: #1b9bff; transition: .5s; }
 
-			.navegacao-itens-lista li 
-			{ display: inline-block; line-height: 80px; margin: 0 5px; }
+			.checkbtn { font-size: 30px; color: #222; float: right; 
+			        line-height: 80px; margin-right: 40px; cursor: pointer; display: none; }
 
-			.navegacao-itens-lista li a:hover 
-			{ text-decoration: none; }
-
-			.navegacao-itens-lista li a 
-			{ color: #000; font-size: 16px; text-transform: uppercase; 
-				padding: 7px 10px; border-radius: 5px; }
-
-			.navegacao-itens-lista li a.active, 
-			.navegacao-itens-lista li a:hover
-			{ background: #28527a; color: white; }
+			#check { display: none; }
 
  			#back-to-top 
 			{ position: fixed; color: white; height: 50px; background: #888;
@@ -120,12 +106,9 @@ height: 650px; }
 .secao-missao 
 { display: flex; }
 
-	.missao-descricao 
-	{ width: 500px; }
-
-		.missao-descricao-textos 
-		{ width: 650px; height: 450px; position: relative; left: 35%; 
-		top: 140px; background: #fff; box-shadow: 10px 10px 10px rgba(0,0,0,0.2); 
+		.missao-descricao 
+		{ width: 650px; height: 450px; position: relative; left: 180px;
+		top: 170px; background: #fff; box-shadow: 10px 10px 10px rgba(0,0,0,0.2); 
 		border-radius: 5px; font-family: 'Open-sans', sans-serif; }
 
 		.missao-titulo 
@@ -137,10 +120,10 @@ height: 650px; }
 		color: rgba(0,0,0,0.5); font-size: 27px; }
 
 		.missao-img 
-		{ position: relative; left: 15%; top: 100px; }
+		{ position: relative; left: 15%; top: 100px; height: 600px; }
 
 		.missao-img img 
-		{ border-radius: 5px; }
+		{ border-radius: 5px; height: 100%; width: 100%; }
 		
 /*Fim dee servicos --------------------------------------------------------------------------*/
 	
@@ -339,6 +322,8 @@ footer
 
 @media (max-width: 600px) {
 
+
+
 	/*Wrapper*/
 	.wrapper 
 	{ height: 7000px; overflow: hidden; display: grid; 
@@ -361,23 +346,6 @@ footer
 	.portfolio 
 	{ height: 38%; }
 
-	/* Navegação */
-	.nav-item-missao 
-	{ position: relative; right: 240px; }
-
-	.nav-item-servicos 
-	{ position: relative; right: 340px; }
-
-	.nav-item-documentacao 
-	{ position: relative; right: 440px; }
-
-	.nav-item-sobre 
-	{ position: relative; right: 850px; top: 2.5em; }
-
-	.nav-item-rodape 
-	{ position: relative; right: 930px; top: 2.5em; }
-	/* Fim navegação */
-
 	/* Logo */
 	.logo 
 	{ position: relative; right: 2.5em; }
@@ -388,22 +356,22 @@ footer
 
 	/*Conteudo*/
 		/*Missão*/
-	.missao-img img 
-	{ position: relative; height: 16em; right: 10em; top: 25em; }
 
-	.missao-descricao 
-	{ position: relative; right: 10.5em; top: 25em; }
+	.secao-missao
+	{ position: relative; right: 150px; }
 
-	.missao-descricao-textos 
-	{ height: 13em; top: 7em; width: 15em; top: 7.5em;}
+	.missao-img
+	{ top: 450px; height: 400px; }
 
-	.missao-descricao-textos span 
-	{ position: relative; top: 0.5em; 
-	font-size: 1.5em; }
+	.missao-descricao
+	{ top: 500px; height: 300px; left: 130px; width: 300px; }
 
-	.missao-descricao-textos p 
-	{ position: relative; font-size: 0.6em; 
-	top: 3em; left: 1.5em; text-align: center; }
+	.missao-descricao h2
+	{ left: 50px; }
+
+	.missao-descricao p
+	{ font-size: 15px; width: 90%; text-align: left; top: 70px;
+	left: 20px; }
 
 	/*Mensagem*/
 	.mensagem-texto, 
@@ -498,29 +466,6 @@ footer
 
 }
 
-@media (min-width: 421px) and (max-width: 720px) {
-
-}
-
-@media (max-width: 952px) {
-
-	.navegacao
-	{ height: 100px; }
-
-	.navegacao-itens-lista
-	{ display: fixed; height: 100vh; width: 100%; background: #222; }
-
-	.navegacao-itens-lista li
-	{  }
-
-	.navegacao-itens-lista li a 
-	{ }
-
-	.checkbtn 
-	{ display: block; }
-
-}
-
 @media (max-width: 1100px) {
 
 	/* Botões de redes sociais */
@@ -531,6 +476,28 @@ footer
 	{ top: 450px; }
 
 	/* Fim botões de redes sociais */
+
+
+
+	/* Navegação */
+
+	.navegacao
+	{ height: 100px; }
+
+	 .checkbtn { display: block; margin-top: 20px; margin-right: 100px; }
+
+    ul { position: fixed; width: 100%; height: 100vh; background: #2c3e50;
+         top: 80px; left: -100%; transition: all .5s; text-align: center; }
+
+    nav ul li { display: block; margin: 50px 0; line-height: 30px; }     
+
+    nav ul li a { font-size: 20px; }
+
+    a:hover, a.active { background: none; color: #0082e6; }
+
+    #check:checked ~ ul { left: 0%; }
+
+	/* Fim da navegação */
 
 
 
