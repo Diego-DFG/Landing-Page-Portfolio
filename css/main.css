@@ -55,13 +55,17 @@ body
 
 			nav ul li { display: inline-block; line-height: 80px; margin: 0 5px; }
 
-			nav ul li a { color: white; font-size: 17px; padding: 7px 13px; 
+			nav ul li a:hover { text-decoration: none; color: white; }
+
+			nav ul li a { color: #222; font-size: 17px; padding: 7px 13px; 
 			        border-radius: 3px; text-transform: uppercase; }
 
-			a.active, a:hover { background: #1b9bff; transition: .5s; }
+			a.active, a:hover { background: #28527a; transition: .5s; }
+
+			a.active { color: white; }
 
 			.checkbtn { font-size: 30px; color: #222; float: right; 
-			        line-height: 80px; margin-right: 40px; cursor: pointer; display: none; }
+			line-height: 80px; margin-right: 40px; cursor: pointer; display: none; }
 
 			#check { display: none; }
 
@@ -325,7 +329,7 @@ footer
 
 	/*Wrapper*/
 	.wrapper 
-	{ height: 5500px; overflow: hidden; display: grid; 
+	{ height: 6000px; overflow: hidden; display: grid; 
 	grid-template-areas: "main" "section" "footer"; 
 	grid-template-rows: 5% 90% 5%; }
 
@@ -414,36 +418,38 @@ footer
 	/*Sobre*/
 	/*Sobre motivação*/
 	.titulo-principal 
-	{ right: 19em; font-size: 1.3em; }
+	{ right: 10em; font-size: 1.5em; text-transform: uppercase; top: 0px; }
 
 	.sobre-motivacao 
-	{ height: 50%; }
+	{ height: 56%; }
 
 	.sobre-motivacao-card:nth-child(1) 
-	{ position: relative; left: 2em; }
+	{ position: relative; top: 50px; left: 9em; }
 
 	.sobre-motivacao-card:nth-child(2) 
-	{ position: relative; top: 30em; right: 15.5em; }
+	{ position: relative; top: 25em; right: 7.5em; }
 
 	.sobre-motivacao-card:nth-child(3) 
-	{ position: relative; top: 50em; right: 33em; }
+	{ position: relative; top: 47em; right: 24em; }
 
 	.sobre-motivacao-card:nth-child(4) 
-	{ position: relative; top: 70em; right: 50.5em; }
+	{ position: relative; top: 69em; right: 40.5em; }
 
 	/*Sobre serviços*/
 	.sobre-servicos 
-	{ height: 20%; }
+	{ height: 16%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_01.jpg')no-repeat; }
 
 	.servicos-titulo 
-	{ position: relative; right: 5em; }
+	{ position: relative; right: 3em; }
 
 	.servicos-texto 
-	{ position: relative; font-size: 1.3em; width: 32%; }
+	{ position: relative; font-size: 1.3em; 
+	width: 32%; left: 6em; }
 
 	/*Seção produtos*/
 	.secao-produtos 
-	{ height: 20%; }
+	{ height: 18%; }
 
 	.card_1_ld, 
 	.card_2_ld, 
@@ -511,11 +517,11 @@ footer
 	label.logo { line-height: 0; }
 
     ul { position: fixed; width: 100%; height: 100vh; background: #2c3e50;
-         top: 80px; left: -100%; transition: all .5s; text-align: center; }
+        left: -100%; transition: all .5s; text-align: center; }
 
     nav ul li { display: block; margin: 50px 0; line-height: 30px; }     
 
-    nav ul li a { font-size: 20px; }
+    nav ul li a { font-size: 20px; color: white; font-weight: bold; }
 
     a:hover, a.active { background: none; color: #0082e6; }
 
