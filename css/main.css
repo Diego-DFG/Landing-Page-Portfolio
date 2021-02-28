@@ -6,24 +6,28 @@ body
 { padding: 0; margin: 0; overflow-x: hidden; text-decoration: none; }
 
 .wrapper 
-{ height: 4600px; overflow: hidden;
-	display: grid; grid-template-areas: "main" "section" "footer"; 
-	grid-template-rows: 14% 78% 8%; box-sizing: border-box; }
+{ height: 5000px; min-height: 100vh; overflow: hidden;
+	display: grid; grid-template-areas: "nav" "main" "section" "footer"; 
+	grid-template-rows: 2% 15% 75% 8%; box-sizing: border-box; }
 
 		.titulo-principal 
 		{ font-family: 'Arial', sans-serif; color: #000; 
 		text-align: center; font-size: 2.5em; font-weight: 800; 
 		position: relative; top: 50px; }
 
-		.conteudo 
-		{ grid-area: section; }
-
-		.rodape 
-		{ grid-area: footer; }
+		.navegacao
+		{ grid-area: nav; }
 
 		.destaque 
 		{ grid-area: main; }
 
+		.conteudo 
+		{ grid-area: section; }
+
+		.rodape
+		{ grid-area: footer; }
+
+/*-------- Conteudo ---------------------------------*/
 		.secao-mensagem 
 		{ height: 5%; }
 
@@ -60,9 +64,12 @@ body
 			nav ul li a { color: #222; font-size: 17px; padding: 7px 13px; 
 			        border-radius: 3px; text-transform: uppercase; }
 
+			 nav ul li:target
+			 { display: block; position: relative; top: -150px; visibility: hidden; }
+
 			a.active, a:hover { background: #28527a; transition: .5s; }
 
-			a.active { color: white; }
+			a.active { color: white; cursor: pointer; }
 
 			.checkbtn { font-size: 30px; color: #222; float: right; 
 			line-height: 80px; margin-right: 40px; cursor: pointer; display: none; }
@@ -300,7 +307,7 @@ footer
 	{ list-style: none; position: relative; top: 2em; }
 
 	.rodape 
-	{ background: #222; display: flex; color: #fff; }
+	{ height: 100%; background: #222; display: flex; color: #fff; }
 
 	.rodape_img 
 	{ height: 200px; width: 200px; position: relative; top: 50px; left: 30px;
