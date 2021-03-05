@@ -131,6 +131,8 @@
 	/* Fim do portfolio */
 }
 
+/* ----------------------------------------------- 600 px ---------------------------------------*/
+
 @media (max-width: 600px) {
 
 
@@ -291,6 +293,119 @@
 
 	.rodape_img
 	{ position: relative; left: -670px; height: 100px; width: 200px; top: 150px; }
+
+}
+
+/* ----------------------------------------------- 450 px ---------------------------------------*/
+
+@media (max-width: 450px) {
+
+	/* Missão */
+
+	#missao .missao-descricao
+	{ width: 200px; left: 180px; top: 205px;}
+
+	.missao-descricao h2
+	{ position: relative; font-size: 1.5em; 
+	width: 100%; margin-left: 0px; top: 10px; }
+
+	.missao-descricao label
+	{ position: relative; font-size: 1em; line-height: 1.2em; width: 80%;
+	left: 20px; top: 20px; }
+
+	.missao-img
+	{ width: 200px; height: 350px; left: 200px; top: 180px; }
+
+	/* Mensagem */
+
+	.secao-mensagem p
+	{ font-size: 20px; width: 65%; top: 10px; }
+
+	.mensagem span 
+	{ left: 180px; }
+
+	.mensagem_02 p
+	{ width: 60%; left: 50px; }
+
+	.mensagem_02 span
+	{ position: relative; left: 200px; }
+
+	.mensagem_02 span, .mensagem span 
+	{ font-size: 0.9em; }
+
+	/*---- seção sobre -----------------------------*/
+
+	.titulo-principal
+	{ left: 90px; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; top: 50px; left: 5em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 25em; right: 11em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 47em; right: 27.5em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 69em; right: 44em; }
+
+	/*Sobre serviços*/
+	.sobre-servicos 
+	{ height: 11%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_03.jpg')no-repeat; }
+
+	.servicos-titulo 
+	{ position: relative; right: 3.8em; top: 50px; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; width: 32%; left: 3em;
+	top: 100px; }
+
+	/*Seção produtos*/
+	.secao-produtos 
+	{ height: 25%; }
+
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld 
+	{ left: 6em; top: 5em; width: 25%; }
+
+	.landing_page_texto p,
+	.ecommerce_texto p,
+	.blog_texto p 
+	{ font-size: 0.7em; }
+
+	/*Portfolio*/
+
+	.portfolio-titulo-principal
+	{ right: 340px; bottom: 150px; }
+
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld
+	{ left: 5em; width: 28%; }
+
+	.portfolio_card_1_ld
+	{ top: 0em; }
+
+	.portfolio_card_2_ld
+	{ top: 5em; }
+
+	.card_consult
+	{ position: relative; top: 35em; right: 0px; }
+
+	/*Rodape*/
+	.contato
+	{left: -150px; top: 10px; }
+
+	.copyright
+	{ position: relative; right: 720px; top: 300px; }
+
+	.rodape_img
+	{ position: relative; left: -740px; height: 100px; width: 200px; top: 120px; }
+
+/* ----------------------------------------------- 400 px ---------------------------------------*/
 
 }
 
