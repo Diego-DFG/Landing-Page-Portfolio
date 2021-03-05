@@ -1,0 +1,46 @@
+body 
+{ padding: 0; margin: 0; overflow-x: hidden; text-decoration: none; }
+
+/*------- Wrapper ---------------------------------------------------------------*/
+	.wrapper 
+	{ height: 5000px; min-height: 100vh; overflow: hidden; display: grid; 
+	grid-template-areas: "nav" "main" "section" "footer"; grid-template-rows: 2% 15% 75% 8%; 
+	box-sizing: border-box; }
+
+		.titulo-principal 
+		{ font-family: 'Arial', sans-serif; color: #000; text-align: center; font-size: 2.5em; 
+		font-weight: 800; position: relative; top: 50px; }
+
+		.navegacao                                       
+		{ grid-area: nav; }
+
+		.destaque 
+		 { grid-area: main; }  
+
+		.conteudo
+		{ grid-area: section; }  
+
+		.rodape
+		{ grid-area: footer; }
+
+/*-------- Conteudo -------------------------------------------------------------*/
+		.secao-mensagem                
+		{ height: 5%; }  
+
+		.secao-missao
+		{ height: 22%; }   
+
+		.secao-sobre
+		{ height: 48%; }   
+
+		.portfolio
+		{ height: 30%; }
+
+		
+		
+
+		 
+		
+
+		
+		

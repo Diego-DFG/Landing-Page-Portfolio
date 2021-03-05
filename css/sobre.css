@@ -1,0 +1,25 @@
+.sobre-motivacao 
+{ height: 26.3%; display: flex; justify-content: space-around; margin-left: 2em; }
+
+	.sobre-motivacao-card 
+	{ height: 250px; width: 250px; margin-right: 2em; position: relative; 
+	top: 150px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
+	text-align: center; border-radius: 5px; }
+
+	.sobre-servicos 
+	{ height: 33.3%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/servicos_01.jpg')no-repeat center/cover; 
+	font-family: 'Lobster', cursive; color: #fff; text-align: center; }
+
+	.card-texto 
+	{ margin-top: 1.5em; width: 90%; position: relative; left: 15px; 
+	color: rgba(0,0,0,0.5);}
+
+	.card-titulo 
+	{ font-size: 4em; font-weight: bold; color: tomato; }
+
+	.servicos-titulo 
+	{ font-size: 5em; position: relative; top: 100px; }
+
+	.servicos-texto 
+	{ font-size: 2.5em; position: relative; top: 200px; }

@@ -1,0 +1,30 @@
+footer 
+{ font-family: 'Montserrat', sans-serif; }
+
+	.social_media 
+	{ display: flex; position: relative; left: 5em; top: 2em; }
+
+	.contato 
+	{ list-style: none; position: relative; top: 2em; }
+
+	.rodape 
+	{ height: 100%; background: #222; display: flex; color: #fff; }
+
+	.rodape_img 
+	{ height: 200px; width: 200px; position: relative; top: 50px; left: 30px;
+	border-radius: 3px; margin-right: 1em;}
+
+	.copyright 
+	{ position: relative; top: 200px; right: 200px; }
+
+	.titulo-contato 
+	{ font-size: 1.5em; margin-bottom: 1em; }
+
+	.social_media li 
+	{ margin-right: 1em; list-style: none; }
+
+	.instagram 
+	{ color: #ffb26b; }
+
+	.whatsapp 
+	{ color: #61b15a; }

@@ -1,0 +1,21 @@
+.secao-missao 
+{ display: flex; }
+
+		.missao-descricao 
+		{ width: 650px; height: 450px; position: relative; left: 180px;
+		top: 170px; background: #fff; box-shadow: 10px 10px 10px rgba(0,0,0,0.2); 
+		border-radius: 5px; font-family: 'Open-sans', sans-serif; }
+
+		.missao-titulo 
+		{ position: relative; margin-left: 1.5em; top: 50px; font-size: 2em; 
+		font-weight: bold; }
+
+		.missao-texto 
+		{ width: 90%; left: 10%; position: relative; left: 50px; top: 100px;
+		color: rgba(0,0,0,0.5); font-size: 27px; }
+
+		.missao-img 
+		{ position: relative; left: 15%; top: 100px; height: 600px; }
+
+		.missao-img img 
+		{ border-radius: 5px; height: 100%; width: 100%; }

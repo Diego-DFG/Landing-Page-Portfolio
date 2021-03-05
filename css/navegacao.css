@@ -1,0 +1,73 @@
+.navegacao 
+{ background: #fff; height: 80px; width: 100%; position: fixed; z-index: 9999; }
+
+	#check
+	{ display: none; }
+
+	nav                                                    	
+	{ background: #0082e6; height: 80px; 
+	width: 100%; }    	
+
+	label.logo														
+	{ color: white; font-size: 34px; 
+	line-height: 80px; padding: 0 100px; 
+	font-weight: bold; }
+
+	nav ul                                 					  
+	{ float: right; margin-right: 20px; }
+
+	nav ul li
+	{ display: inline-block;line-height: 80px; 
+	margin: 0 5px; }
+
+
+	nav ul li a:hover                                      	
+	{ text-decoration: none; color: white; }               	
+
+	nav ul li a 
+	{ color: #222; font-size: 17px; padding: 7px 13px; border-radius: 3px; text-transform: uppercase; }
+
+	nav ul li:target
+	{ display: block; position: relative; top: -150px; visibility: hidden; }
+
+	a.active, a:hover 
+	{ background: #28527a; transition: .5s; }
+
+	a.active 
+	{ color: white; cursor: pointer; }
+
+	.checkbtn 
+	{ font-size: 30px; color: #222; float: right; 
+	line-height: 80px; margin-right: 40px; cursor: pointer; display: none; }
+
+	#check 
+	{ display: none; }
+
+ 	#back-to-top 
+	{ position: fixed; color: white; height: 50px; background: #888;
+	width: 50px; text-align: center; font-size: 30px; border-radius: 3px;
+	right: 40px; z-index: 9999; top: 100px; }
+
+	#instagram
+	{ background: linear-gradient(45deg, yellow, red, blue); 
+	position: fixed; top: 550px; }
+
+	#whatsapp 
+	{ position: fixed; top: 500px; background: green; }
+
+	#instagram,
+	#whatsapp
+	{ color: white; height: 50px; width: 50px; text-align: center; 
+	font-size: 30px; border-radius: 3px; right: 40px; z-index: 9999; }
+
+	.redes-sociais 
+	{ position: relative; left: 50%; }
+
+	.linkedin 
+	{ color: #0779e4;  }
+
+	.instagram 
+	{ color: #f2a365; }
+
+	.whatsapp 
+	{ color: #21bf73; }			

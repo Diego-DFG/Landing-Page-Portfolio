@@ -1,0 +1,55 @@
+.portfolio 
+{ display: flex; }
+
+	.portfolio_img_01 
+	{ width: 50%; height: 100%; background: url('../img/atelier.png')no-repeat top/cover; 
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+	.portfolio_img_02 
+	{ width: 50%; height: 100%; background: url('../img/alma.png')no-repeat top/cover; 
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+	.portfolio_img_03 
+	{ width: 50%; height: 100%; background: url('../img/consult.png')no-repeat top/cover; 
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+	.portfolio img 
+	{ z-index: 1; height: 400px; border-radius: 5px; position: relative; 
+	right: 100px; top: 150px; }
+
+	.portfolio_card_1_ld 
+	{ display: flex; width: 400px; height: 400px; position: relative; 
+	right: 230px; top: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09);
+				 }
+	.portfolio_card_2_ld 
+	{ display: flex; width: 400px; height: 400px; position: relative; 
+	left: 235px; bottom: 200px; border: 1px solid rgba(0,0,0,0.09); 
+	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); 
+				 }	
+	.portfolio_card_3_ld 
+	{ display: flex; width: 400px; height: 400px; position: relative; 
+	bottom: 600px; left: 700px; border: 1px solid rgba(0,0,0,0.09); 
+	border: 1px solid rgba(0,0,0,0.09); border-radius: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.09); }
+
+	.portfolio_texto_01, 
+	.portfolio_texto_02, 
+	.portfolio_texto_03 
+	{ width: 50%; height: 100%; text-align: center; margin-top: 1em;
+	text-decoration: none; color: #000; }
+
+	.portfolio a:hover
+	{ text-decoration: none; }
+
+	.portfolio h1 
+	{ position: relative; left: 570px; top: 70px; 
+	font-family: 'Montserrat', sans-serif; font-weight: 800; }
+
+	.portfolio h3
+	{ font-family: 'Montserrat', sans-serif; font-weight: bold; }
+
+	.portfolio p 
+	{ position: relative; top: 100px; font-size: 18px; }

@@ -1,0 +1,39 @@
+.secao-produtos 
+{ height: 40.3%; color: #383e56; }
+
+	.secao-produtos h3 
+	{ font-weight: 800; color: tomato; text-transform: uppercase; 
+	font-family: 'Montserrat', sans-serif; }
+
+	.card_1_ld 
+	{ display: flex; width: 40%; height: 180px; position: relative; left: 10%; 
+	top: 30px; border: 3px solid rgba(0,0,0,0.1); border-radius: 10px; }
+
+	.card_2_ld 
+	{ display: flex; width: 40%; height: 180px; position: relative; left: 30%; top: 50px; 
+	border: 3px solid rgba(0,0,0,0.1); border-radius: 10px; }	
+
+	.card_3_ld 
+	{ display: flex; width: 40%; height: 180px; position: relative; left: 50%; top: 70px; 
+	border: 3px solid rgba(0,0,0,0.1); border-radius: 10px; }	
+
+	.landing_page_img 
+	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.1), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_04.jpg')no-repeat center/cover; 
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+	.ecommerce_img 
+	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.1), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_06.jpg')no-repeat center/cover; 
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+	.blog_img 
+	{ width: 50%; height: 100%; background: linear-gradient(rgba(0,0,0,0.1), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_08.jpg')no-repeat center/cover; 
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+	.landing_page_texto, 
+	.ecommerce_texto, 
+	.blog_texto 
+	{ width: 50%; height: 100%; 
+	text-align: center; margin-top: 1em; }

@@ -1,0 +1,26 @@
+.mensagem 
+{ height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+rgba(0,0,0,0.5)),url('../img/Red_msg_03.jpg')no-repeat center/cover; }
+
+	.mensagem-texto, 
+	.mensagem-autor, 
+	.mensagem-texto_02, 
+	.mensagem-autor_02 
+	{ font-family: 'Montserrat', sans-serif; color: #fff; position: relative; 
+	left: 100px; font-weight: 700; }
+
+	.mensagem_02 
+	{ height: 100%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/portfolio_00.jpg')no-repeat center/cover; }
+
+	.mensagem-texto_02 
+	{ font-size: 1.5em; position: relative; left: 250px; top: 50px;  }
+
+	.mensagem-texto 
+	{ font-size: 1.5em; position: relative; left: 100px; top: 50px; }
+
+	.mensagem-autor
+	{ font-size: 1em; position: relative; left: 45%; top: 100px; }
+
+	.mensagem-autor_02 
+	{ font-size: 1em; position: relative; left: 45%; top: 100px; }

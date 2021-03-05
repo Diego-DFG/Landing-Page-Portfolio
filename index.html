@@ -1,210 +1,278 @@
 <!DOCTYPE html>
 	<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>DFG - Solutions</title>
-		<link rel = "icon" href = "img/favicon.png" type = "image/png" sizes = "16x16">
-		<link rel="stylesheet" type="text/css" href="./css/main.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-		<!-- Bootstrap -->
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-		<!----------- AOS ------------->
-		<link rel="stylesheet" type="text/css" href="./css/aos.css">
+		<head>
+			<meta charset="utf-8">
 
-		<!------------- Back to top ------------------------>
-    	<script src="./js/back_to_top.js"></script>
-		
-	</head>
-	<body>
-		<div class="wrapper">
-			<nav class="navegacao">
-					<input type="checkbox" id="check" />
-					<label for="check" class="checkbtn">
-						<i class="fas fa-bars"></i>
-					</label>
-					<label class="logo">
-						<img class="logo-navegacao" src="./img/dfg_digital_solutions.jpg"></img>
-					</label>
-					<ul data-aos="fade-in" data-aos-delay="100" class="navegacao-itens-lista">
-						<li class="nav-item-missao">
-							<a href="#missao" class="active scrollSmooth">Missão</a>
-						</li>
-						<li class="nav-item-documentacao">
-							<a href="#digital" class="scrollSmooth">Seja Digital</a>
-						</li>
-						<li class="nav-item-servicos">
-							<a href="#servicos" class="servicos scrollSmooth">Serviços</a>
-						</li>
-						<li class="nav-item-rodape">
-							<a href="#fale" class="nav_rodape scrollSmooth">Fale Conosco</a>
-						</li>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+			<title>DFG - Solutions</title>
+
+			<!----------- Favicon --------------------------------------------------------->
+			<link rel = "icon" href = "img/favicon.png" type = "image/png" sizes = "16x16">
+
+			<!------------ Estilos Gerais ---------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/estilos_gerais.css">
+
+			<!------------ Navegação --------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/navegacao.css">
+
+			<!------------ Destaque ---------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/destaque.css">
+
+			<!------------ Missao ------------------------------------------------>
+			<link rel="stylesheet" type="text/css" href="./css/missao.css">
+
+			<!------------ Mensagem ---------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/mensagem.css">
+
+			<!------------ Sobre ------------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/sobre.css">
+
+			<!------------ Produtos ---------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/produtos.css">
+
+			<!------------ Portfolio --------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+
+			<!------------ Rodape ------------------------------------------------>
+			<link rel="stylesheet" type="text/css" href="./css/rodape.css">
+
+			<!------------- Breakpoints ------------------------------------------>
+			<link rel="stylesheet" type="text/css" href="./css/breakpoints.css">
+
+			<!------------ Google fonts ----------------------------------------->
+				<link rel="preconnect" href="https://fonts.gstatic.com">
+
+				<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+				
+				<link rel="preconnect" href="https://fonts.gstatic.com">
+				<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+				
+				<link rel="preconnect" href="https://fonts.gstatic.com">
+				<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+			<!------------------------------------------------------------------->	
+
+			<!-- Bootstrap -->
+			<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+			<!----------- AOS ------------->
+			<link rel="stylesheet" type="text/css" href="./css/aos.css">
+
+			<!------------- Back to top ------------------------>
+	    	<script src="./js/back_to_top.js"></script>
+		</head>
+		<body>
+			<!--- Wrapper -------------------------------------------------------------------------->
+			<div class="wrapper">
+
+				<!-- Menu de navegacao ------------------------------------------------------------------>
+				<nav class="navegacao">
+						<input type="checkbox" id="check" />
+						<label for="check" class="checkbtn">
+							<i class="fas fa-bars"></i>
+						</label>
+						<label class="logo">
+							<img class="logo-navegacao" src="./img/dfg_digital_solutions.jpg"></img>
+						</label>
+						<ul data-aos="fade-in" data-aos-delay="100" class="navegacao-itens-lista">
+							<li class="nav-item-missao">
+								<a href="#missao" class="active scrollSmooth">Missão</a>
+							</li>
+							<li class="nav-item-documentacao">
+								<a href="#digital" class="scrollSmooth">Seja Digital</a>
+							</li>
+							<li class="nav-item-servicos">
+								<a href="#servicos" class="servicos scrollSmooth">Serviços</a>
+							</li>
+							<li class="nav-item-rodape">
+								<a href="#fale" class="nav_rodape scrollSmooth">Fale Conosco</a>
+							</li>
+						</ul>
+				</nav>
+
+				<!--- Área de destaque -------------------------------------------------------------->
+				<main class="destaque">
+					<a href="#" id="back-to-top" style="display: none">
+						<i class="fas fa-angle-up"></i>
+					</a>
+					<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521992889796/&text=Olá!%20Quero%20uma%20solução%20para%20o%20meu%20negócio" id="whatsapp">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+					<a href="https://www.instagram.com/gomes_solucoesdigitais/" id="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</main>
+
+				<!--- Conteúdo ---------------------------------------------------------------------->
+				<section class="conteudo">
+
+					<!--- Conteúdo Missão ----------------------------------------------------------->
+					<div id="missao" class="secao-missao">
+						<div data-aos="fade-in" data-aos-delay="400" class="missao-img">
+							<img src="./img/Red_conexao_01.jpg">
+						</div>
+						<div data-aos="fade-left" data-aos-delay="800" class="missao-descricao">
+							<h2 class="missao-titulo">Missão</h2>
+							<label class="missao-texto">Temos como missão à satisfação dos nossos clientes. Pensamos sempre na melhor entrega de nossos serviços, garantindo assim a melhor experiência aos nossos usuários.</label>
+						</div>
+					</div>
+
+					<!--- Conteúdo Mensagem --------------------------------------------------------->
+					<div class="secao-mensagem">
+						<div class="mensagem">
+							<p class="mensagem-texto">"Reunir-se é um começo, permanecer juntos é um progresso, e trabalhar juntos é um sucesso."</p>
+							<span class="mensagem-autor">Napoleon Hill</span>
+						</div>
+					</div>
+
+					<!--- Conteúdo Sobre ------------------------------------------------------------>
+					<div class="secao-sobre">
+						<div id="titulo-principal">
+							<h1 id="digital" class="titulo-principal">Ganhe Visibilidade On-line</h1>
+						</div>
+
+						<!--- Conteúdo Sobre: motivação -------------------------------------------->
+						<div  class="sobre-motivacao">
+							<div data-aos="fade-down" data-aos-delay="200" class="sobre-motivacao-card">
+								<span class="card-titulo">72%</span>
+								<p class="card-texto">Das pesquisas na internet tornam-se visitas reais às lojas físicas em um raio de 8km.</p>
+								<p class="card-texto">(wordstream)</p>
+							</div>
+							<div data-aos="fade-down" data-aos-delay="300" class="sobre-motivacao-card">
+								<span class="card-titulo">34%</span>
+								<p class="card-texto">Consumidores propensos à comprar se expostos a conteúdo personalizado</p>
+								<p class="card-texto">(Forbes)</p>
+							</div>
+							<div data-aos="fade-down" data-aos-delay="500" class="sobre-motivacao-card">
+								<span class="card-titulo">50%</span>
+								<p class="card-texto">Usuários mobile visitam uma loja no período de um dia após pesquisas locais</p>
+								<p class="card-texto">(Google)</p>
+							</div>
+							<div data-aos="fade-down" data-aos-delay="700" class="sobre-motivacao-card">
+								<span class="card-titulo">76,8%</span>
+								<p class="card-texto">Usuários que compraram após receber uma newsletter em seu email</p>
+								<p class="card-texto">(Rock Content)</p>
+							</div>
+						</div>
+
+						<!--- Conteúdo Sobre: serviços ---------------------------------------------->
+						<div id="servicos" class="sobre-servicos">
+							<div class="secao-servicos-img">
+								<h2 class="servicos-titulo">Serviços</h2>
+								<p class="servicos-texto">Como podemos atendê-lo?</p>
+							</div>
+						</div>
+
+						<!--- Conteúdo Sobre: produtos ---------------------------------------------->
+						<div class="secao-produtos">
+							<div data-aos="fade-left" data-aos-delay="100" class="card_1_ld">
+								<div class="landing_page_img"></div>
+								<div class="landing_page_texto">
+									<h3>Landing Pages</h3>
+									<p>Dê visibilidade a seus produtos e aumente consideravalelmente suas vendas.</p>
+								</div>
+							</div>
+							<div data-aos="fade-right" data-aos-delay="300" class="card_2_ld">
+								<div class="ecommerce_img"></div>
+								<div class="ecommerce_texto">
+									<h3>Sites</h3>
+									<p>Divulgue sua marca com um site institucional que represente verdadeiramente os valores de seus serviços e produtos ao mercado.</p>
+								</div>
+							</div>
+							<div data-aos="fade-left" data-aos-delay="600" class="card_3_ld">
+								<div class="blog_img"></div>
+								<div class="blog_texto">
+									<h3>Blogs</h3>
+									<p>Crie conteúdo e conquiste audiência orgânica para seus produtos e serviços.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--- Conteúdo Mensagem --------------------------------------------------------->
+					<div class="secao-mensagem">
+						<div class="mensagem_02">
+							<p class="mensagem-texto_02">"Apressa-te a viver bem e pensa que cada dia é, por si só, uma vida."</p>
+							<span class="mensagem-autor_02">Sêneca</span>
+						</div>
+					</div>
+
+					<!--- Conteúdo Portfolio ------------------------------------------------------------>
+					<div class="portfolio">
+						<div class="portfolio-titulo-principal">
+							<h1>PORTFOLIO</h1>
+						</div>
+						<div class="portfolio-cards">
+							<a class="card_atelier" href="https://atelierdart-6c8b4.web.app/produtos.html">
+								<div data-aos="fade-right" data-aos-delay="600" class="portfolio_card_1_ld">
+									<div class="portfolio_img_01"></div>
+									<div class="portfolio_texto_01">
+											<h3>Atelier D'art</h3>
+											<p>Ecommerce para venda de produtos artesanais.</p>
+									</div>
+								</div>
+							</a>
+							<a class="card-alma" href="https://almasollar-86b85.web.app/">
+								<div data-aos="fade-left" data-aos-delay="300" class="portfolio_card_2_ld">
+									<div class="portfolio_img_02"></div>
+									<div class="portfolio_texto_02">
+											<h3>Alma Sollar</h3>
+											<p>Landing Page para vendas de bijuterias.</p>
+									</div>		
+								</div>	
+							</a>
+							<a class="card_consult" href="https://myconsult-19c00.web.app/">
+								<div data-aos="fade-right" data-aos-delay="600" class="portfolio_card_3_ld">
+									<div class="portfolio_img_03"></div>
+									<div class="portfolio_texto_03">
+											<h3>My Consult</h3>
+											<p>Landing Page para consultoria imobiliária.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<!--- Rodapé ---------------------------------------------------------------------------->
+				<footer id="fale" class="rodape">
+					<ul class="contato">
+						<li class="titulo-contato">Contato</li>
+						<li>Email: diegofgomes2801@gmail.com</li>
 					</ul>
-			</nav>
-			<main class="destaque">
-				<a href="#" id="back-to-top" style="display: none">
-					<i class="fas fa-angle-up"></i>
-				</a>
-				<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521992889796/&text=Olá!%20Quero%20uma%20solução%20para%20o%20meu%20negócio" id="whatsapp">
-					<i class="fab fa-whatsapp"></i>
-				</a>
-				<a href="https://www.instagram.com/gomes_solucoesdigitais/" id="instagram">
-					<i class="fab fa-instagram"></i>
-				</a>
-			</main>
-			<section class="conteudo">
-				<div id="missao" class="secao-missao">
-					<div data-aos="fade-in" data-aos-delay="400" class="missao-img">
-						<img src="./img/Red_conexao_01.jpg">
-					</div>
-					<div data-aos="fade-left" data-aos-delay="800" class="missao-descricao">
-						<h2 class="missao-titulo">Missão</h2>
-						<label class="missao-texto">Temos como missão à satisfação dos nossos clientes. Pensamos sempre na melhor entrega de nossos serviços, garantindo assim a melhor experiência aos nossos usuários.</label>
-					</div>
-				</div>
-				<div class="secao-mensagem">
-					<div class="mensagem">
-						<p class="mensagem-texto">"Reunir-se é um começo, permanecer juntos é um progresso, e trabalhar juntos é um sucesso."</p>
-						<span class="mensagem-autor">Napoleon Hill</span>
-					</div>
-				</div>
-				<div class="secao-sobre">
-					<div id="titulo-principal">
-						<h1 id="digital" class="titulo-principal">Ganhe Visibilidade On-line</h1>
-					</div>
-					<div  class="sobre-motivacao">
-						<div data-aos="fade-down" data-aos-delay="200" class="sobre-motivacao-card">
-							<span class="card-titulo">72%</span>
-							<p class="card-texto">Das pesquisas na internet tornam-se visitas reais às lojas físicas em um raio de 8km.</p>
-							<p class="card-texto">(wordstream)</p>
-						</div>
-						<div data-aos="fade-down" data-aos-delay="300" class="sobre-motivacao-card">
-							<span class="card-titulo">34%</span>
-							<p class="card-texto">Consumidores propensos à comprar se expostos a conteúdo personalizado</p>
-							<p class="card-texto">(Forbes)</p>
-						</div>
-						<div data-aos="fade-down" data-aos-delay="500" class="sobre-motivacao-card">
-							<span class="card-titulo">50%</span>
-							<p class="card-texto">Usuários mobile visitam uma loja no período de um dia após pesquisas locais</p>
-							<p class="card-texto">(Google)</p>
-						</div>
-						<div data-aos="fade-down" data-aos-delay="700" class="sobre-motivacao-card">
-							<span class="card-titulo">76,8%</span>
-							<p class="card-texto">Usuários que compraram após receber uma newsletter em seu email</p>
-							<p class="card-texto">(Rock Content)</p>
-						</div>
-					</div>
-					<div id="servicos" class="sobre-servicos">
-						<div class="secao-servicos-img">
-							<h2 class="servicos-titulo">Serviços</h2>
-							<p class="servicos-texto">Como podemos atendê-lo?</p>
-						</div>
-					</div>
-					<div class="secao-produtos">
-						<div data-aos="fade-left" data-aos-delay="100" class="card_1_ld">
-							<div class="landing_page_img"></div>
-							<div class="landing_page_texto">
-								<h3>Landing Pages</h3>
-								<p>Dê visibilidade a seus produtos e aumente consideravalelmente suas vendas.</p>
-							</div>
-						</div>
-						<div data-aos="fade-right" data-aos-delay="300" class="card_2_ld">
-							<div class="ecommerce_img"></div>
-							<div class="ecommerce_texto">
-								<h3>Sites</h3>
-								<p>Divulgue sua marca com um site institucional que represente verdadeiramente os valores de seus serviços e produtos ao mercado.</p>
-							</div>
-						</div>
-						<div data-aos="fade-left" data-aos-delay="600" class="card_3_ld">
-							<div class="blog_img"></div>
-							<div class="blog_texto">
-								<h3>Blogs</h3>
-								<p>Crie conteúdo e conquiste audiência orgânica para seus produtos e serviços.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="secao-mensagem">
-					<div class="mensagem_02">
-						<p class="mensagem-texto_02">"Apressa-te a viver bem e pensa que cada dia é, por si só, uma vida."</p>
-						<span class="mensagem-autor_02">Sêneca</span>
-					</div>
-				</div>
-				<div class="portfolio">
-					<div class="portfolio-titulo-principal">
-						<h1>PORTFOLIO</h1>
-					</div>
-					<div class="portfolio-cards">
-						<a class="card_atelier" href="https://atelierdart-6c8b4.web.app/produtos.html">
-							<div data-aos="fade-right" data-aos-delay="600" class="portfolio_card_1_ld">
-								<div class="portfolio_img_01"></div>
-								<div class="portfolio_texto_01">
-										<h3>Atelier D'art</h3>
-										<p>Ecommerce para venda de produtos artesanais.</p>
-								</div>
-							</div>
-						</a>
-						<a class="card-alma" href="https://almasollar-86b85.web.app/">
-							<div data-aos="fade-left" data-aos-delay="300" class="portfolio_card_2_ld">
-								<div class="portfolio_img_02"></div>
-								<div class="portfolio_texto_02">
-										<h3>Alma Sollar</h3>
-										<p>Landing Page para vendas de bijuterias.</p>
-								</div>		
-							</div>	
-						</a>
-						<a class="card_consult" href="https://myconsult-19c00.web.app/">
-							<div data-aos="fade-right" data-aos-delay="600" class="portfolio_card_3_ld">
-								<div class="portfolio_img_03"></div>
-								<div class="portfolio_texto_03">
-										<h3>My Consult</h3>
-										<p>Landing Page para consultoria imobiliária.</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</section>
-			<footer id="fale" class="rodape">
-				<ul class="contato">
-					<li class="titulo-contato">Contato</li>
-					<li>Email: diegofgomes2801@gmail.com</li>
-				</ul>
-				<p class="copyright">&copy; DFG Digital Solutions - 2021</p>
-				<img class="rodape_img" src="./img/dfg_digital_solutions_02.jpg"/>
-			</footer>
-		</div>
-		<!-- CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+					<p class="copyright">&copy; DFG Digital Solutions - 2021</p>
+					<img class="rodape_img" src="./img/dfg_digital_solutions_02.jpg"/>
+				</footer>
+			</div>
 
-		<!----------- Jquery ------------------------------------------------------------>
-		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-		<!------------ Popper ----------------------------------------------------------->
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+			<!--- CDN: Plugins e Frameworks ------------------------------------------------------------->
 
-		<!------------- Owl-Carousel js -------------------->
-    	<script src="./js/owl.carousel.min.js"></script>
+				<!-- CDN Bootstrap -->
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    	<!-------------- Font awesome ---------------------->
-    	<script src="./js/fontawesome-all.js"></script>
+				<!----------- Jquery ------------------------------------------------------------>
+				<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+				<!------------ Popper ----------------------------------------------------------->
+				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
-    	<!----------------------- aos ---------------------->
-		<script src="./js/aos.js"></script>
+			<!--- Javascript ------------------------------------------------------------------------>
 
-		 <!------------ main js ---------------------------->
-   		 <script src="./js/main.js"></script>
+				<!------------- Owl-Carousel js -------------------->
+		    	<script src="./js/owl.carousel.min.js"></script>
 
-   		 <!----------- Custom JS -------------------------->
-   		 <script src="./js/custom.js"></script>
+		    	<!-------------- Font awesome ---------------------->
+		    	<script src="./js/fontawesome-all.js"></script>
 
-		<!------------- Back to top ------------------------>
-    	<script src="./js/back_to_top.js"></script>
+		    	<!----------------------- aos ---------------------->
+				<script src="./js/aos.js"></script>
 
+				 <!------------ main js ---------------------------->
+		   		 <script src="./js/main.js"></script>
 
-	</body>
+		   		 <!----------- Custom JS -------------------------->
+		   		 <script src="./js/custom.js"></script>
+
+				<!------------- Back to top ------------------------>
+		    	<script src="./js/back_to_top.js"></script>
+		</body>
 </html>

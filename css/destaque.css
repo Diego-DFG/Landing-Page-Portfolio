@@ -1,0 +1,4 @@
+.destaque 
+{ background: linear-gradient(rgba(0,0,0,0.7), 
+rgba(0,0,0,0.7)),url('../img/negocios_00.jpg')no-repeat center/cover; 
+height: 650px; }
