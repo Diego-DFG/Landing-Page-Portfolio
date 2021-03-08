@@ -876,3 +876,132 @@
 	{ position: relative; left: -870px; height: 100px; width: 200px; top: 150px; }
 
 }
+
+@media (max-width: 320px) {
+
+	#back-to-top,
+	#whatsapp,
+	#instagram 
+	{ right: 10px; }
+	
+	
+
+	/*Destaque*/
+	.destaque 
+	{ background: linear-gradient(rgba(0,0,0,0.7), 
+	rgba(0,0,0,0.7)),url('../img/Red_negocios_00.jpg')no-repeat; 
+	height: 383px; }
+	/*Fim da área de destaque*/
+
+	/*Conteudo*/
+		/*Missão*/
+
+	.secao-missao
+	{ position: relative; right: 150px; }
+
+	.missao-img
+	{ top: 180px; height: 330px; width: 180px; left: 160px; }
+
+	.missao-descricao
+	{ top: 230px; height: 250px; left: 120px; width: 160px; }
+
+	.missao-titulo
+	{ left: -20px; top: 20px; }
+
+	.missao-texto
+	{ width: 80%; text-align: left; top: 20px; font-size: 0.8em;
+	left: 20px; }
+
+	/*Mensagem*/
+	
+	.mensagem, 
+	.mensagem_02 
+	{ height: 60%; }
+
+	.mensagem
+	{ width: 33%; }	
+
+	.mensagem_02
+	{ width: 35%; }
+
+	.mensagem p
+	{  width: 80%; left: 10px; text-align: center; top: 10px; }
+
+	.mensagem span
+	{ left: 130px; }
+
+	.mensagem_02 p
+	{ top: 10px; left: 20px; width: 73%; }
+
+	.mensagem_02 p, .mensagem p
+	{ font-size: 17px; }
+
+	.mensagem_02 span
+	{ left: 140px; }
+
+	.mensagem_02 span, .mensagem span
+	{ top: 50px; font-size: 13px; }
+
+
+	/*Sobre*/
+	/*Sobre motivação*/
+
+	.titulo-principal 
+	{ left: 1.5em; width: 23%; font-size: 20px; text-transform: uppercase; top: -100px; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; top: 50px; left: 0.3em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 25em; right: 17.3em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 47em; right: 34.8em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 69em; right: 52.3em; }
+
+
+
+	/*Sobre serviços*/
+	.sobre-servicos 
+	{ height: 17%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_01.jpg')no-repeat; }
+
+	.servicos-titulo 
+	{ position: relative; right: 8.5em; font-size: 3em; top: 100px; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; 
+	width: 32%; left: -0.5em; }
+
+	/*Seção produtos*/
+
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld 
+	{ position: relative; left: 0.9em; top: 3.5em; width: 25%; }
+
+	/*Portfolio*/
+
+	.portfolio-titulo-principal
+	{ position: relative; right: 405px; bottom: 150px; }
+
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld
+	{ width: 25.5%; }
+
+	/*Rodape*/
+	.contato
+	{ position: relative; left: -265px; background: #222; font-size: 1em; top: 0px; }
+
+	.copyright
+	{ position: relative; right: 780px; top: 300px; }
+
+	.rodape_img
+	{ position: relative; left: -895px; height: 100px; width: 200px; top: 150px; }
+
+}
+
+}
