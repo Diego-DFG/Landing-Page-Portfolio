@@ -1,5 +1,5 @@
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 
 	/*Wrapper*/
 	.wrapper 
@@ -135,6 +135,719 @@
 	{ bottom: 400px; left: 530px; }
 
 	/* Fim do portfolio */
+
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) { 
+
+	/* Conteúdo */
+	.conteudo 
+	{ grid-area: section; }
+
+	.secao-missao 
+	{ height: 12.5%; }
+			
+	.secao-mensagem 
+	{ height: 7%; }
+
+	.secao-sobre 
+	{ height: 48.5%; }
+
+	.portfolio 
+	{ height: 32%; }
+
+		/* Navegacao */
+
+	.checkbtn 
+	{ line-height: 60px; }
+
+	/* Logo */
+	.logo 
+	{ position: relative; right: 2.5em; }
+
+	.texto-navegacao 
+	{ font-size: 1.5em; }
+	/* Fim logo */
+
+
+
+	/*Destaque*/
+	.destaque 
+	{ background: linear-gradient(rgba(0,0,0,0.7), 
+	rgba(0,0,0,0.7)),url('../img/negocios_00.jpg')no-repeat; 
+	height: 383px; }
+	/*Fim da área de destaque*/
+
+
+
+	/*Conteudo*/
+		/*Missão*/
+
+	.secao-missao
+	{ position: relative; right: 150px; }
+
+	.missao-img
+	{ top: 160px; height: 400px; left: 320px; }
+
+	.missao-descricao
+	{ top: 220px; height: 300px; left: 300px; width: 300px; }
+
+	.missao-titulo
+	{ left: 50px; top: 20px; }
+
+	.missao-texto
+	{ width: 90%; text-align: left; top: 20px;
+	left: 20px; }
+
+	/*Mensagem*/
+	
+	.mensagem, 
+	.mensagem_02 
+	{ width: 90%; height: 60%; }	
+
+	.mensagem p
+	{  width: 75%; left: 60px; text-align: center; top: 10px; }
+
+	.mensagem span
+	{ left: 400px; }
+
+	.mensagem_02 p
+	{ width: 70%; left: 100px; }
+
+	.mensagem_02 p, .mensagem p
+	{ font-size: 25px; }
+
+	.mensagem_02 span
+	{ left: 320px; }
+
+	.mensagem_02 span, .mensagem span
+	{ top: 50px; font-size: 15px; }
+
+
+	/*Sobre*/
+	/*Sobre motivação*/
+
+	.sobre-motivacao-card 
+	{ height: 250px; width: 250px; }
+
+	.card-titulo 
+	{ font-size: 4em; font-weight: bold; color: tomato; }
+
+	.card-texto
+	{ font-size: 1em; }
+
+	.sobre-motivacao 
+	{ height: 54%; position: relative; bottom: 100px; }
+
+	.titulo-principal 
+	{ right: -5em; width: 100%; font-size: 25px; text-transform: uppercase; top: -100px; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; top: 50px; left: 18em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 25em; right: 0em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 47em; right: 18em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 69em; right: 35.5em; }
+
+
+
+	/*Sobre serviços*/
+	.sobre-servicos 
+	{ height: 17%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_05.jpg')no-repeat; }
+
+	.servicos-titulo 
+	{ position: relative; right: 1.8em; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; 
+	width: 32%; left: 12em; }
+
+	/*Seção produtos*/
+	.secao-produtos 
+	{ height: 19%; }
+
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld 
+	{ position: relative; left: 17em; top: 3.5em; width: 30%; }
+
+	.landing_page_texto p,
+	.ecommerce_texto p,
+	.blog_texto p 
+	{ font-size: 0.8em; }
+
+	/*Portfolio*/
+	.portfolio 
+	{ display: block; }
+
+	.portfolio-titulo-principal
+	{ position: relative; right: 200px; bottom: 150px; }
+
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld
+	{ left: 1em; width: 30%; }
+
+	.portfolio_card_1_ld
+	{ top: 0em; left: 190px; }
+
+	.portfolio_card_2_ld
+	{ top: 5em; left: 190px; }
+
+	.card_consult
+	{ position: relative; top: 35em; left: 170px; }
+
+	/*Rodape*/
+	.contato
+	{ position: relative; left: -50px; background: #222; font-size: 1.5em; top: 0px; }
+
+	.copyright
+	{ position: relative; right: 780px; top: 300px; }
+
+	.rodape_img
+	{ position: relative; left: -680px; height: 100px; width: 200px; top: 150px; }
+
+}
+
+@media (min-width: 901px) and (max-width: 1000px) { 
+
+	/* Conteúdo */
+	.conteudo 
+	{ grid-area: section; }
+
+	.secao-missao 
+	{ height: 12.5%; }
+			
+	.secao-mensagem 
+	{ height: 7%; }
+
+	.secao-sobre 
+	{ height: 48.5%; }
+
+	.portfolio 
+	{ height: 32%; }
+
+		/* Navegacao */
+
+	.checkbtn 
+	{ line-height: 60px; }
+
+	/* Logo */
+	.logo 
+	{ position: relative; right: 2.5em; }
+
+	.texto-navegacao 
+	{ font-size: 1.5em; }
+	/* Fim logo */
+
+
+
+	/*Destaque*/
+	.destaque 
+	{ background: linear-gradient(rgba(0,0,0,0.7), 
+	rgba(0,0,0,0.7)),url('../img/negocios_00.jpg')no-repeat; 
+	height: 383px; }
+	/*Fim da área de destaque*/
+
+
+
+	/*Conteudo*/
+		/*Missão*/
+
+	.secao-missao
+	{ position: relative; right: 150px; }
+
+	.missao-img
+	{ top: 160px; height: 400px; left: 320px; }
+
+	.missao-descricao
+	{ top: 220px; height: 300px; left: 300px; width: 300px; }
+
+	.missao-titulo
+	{ left: 50px; top: 20px; }
+
+	.missao-texto
+	{ width: 90%; text-align: left; top: 20px;
+	left: 20px; }
+
+	/*Mensagem*/
+	
+	.mensagem, 
+	.mensagem_02 
+	{ width: 90%; height: 60%; }	
+
+	.mensagem p
+	{  width: 75%; left: 60px; text-align: center; top: 10px; }
+
+	.mensagem span
+	{ left: 400px; }
+
+	.mensagem_02 p
+	{ width: 70%; left: 100px; }
+
+	.mensagem_02 p, .mensagem p
+	{ font-size: 25px; }
+
+	.mensagem_02 span
+	{ left: 320px; }
+
+	.mensagem_02 span, .mensagem span
+	{ top: 50px; font-size: 15px; }
+
+
+	/*Sobre*/
+	/*Sobre motivação*/
+
+	.sobre-motivacao-card 
+	{ height: 250px; width: 250px; }
+
+	.card-titulo 
+	{ font-size: 4em; font-weight: bold; color: tomato; }
+
+	.card-texto
+	{ font-size: 1em; }
+
+	.sobre-motivacao 
+	{ height: 54%; position: relative; bottom: 100px; }
+
+	.titulo-principal 
+	{ right: -5em; width: 100%; font-size: 25px; text-transform: uppercase; top: -100px; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; top: 50px; left: 18em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 25em; right: 0em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 47em; right: 18em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 69em; right: 35.5em; }
+
+
+
+	/*Sobre serviços*/
+	.sobre-servicos 
+	{ height: 17%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_05.jpg')no-repeat; }
+
+	.servicos-titulo 
+	{ position: relative; right: 1.8em; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; 
+	width: 32%; left: 12em; }
+
+	/*Seção produtos*/
+	.secao-produtos 
+	{ height: 19%; }
+
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld 
+	{ position: relative; left: 17em; top: 3.5em; width: 30%; }
+
+	.landing_page_texto p,
+	.ecommerce_texto p,
+	.blog_texto p 
+	{ font-size: 0.8em; }
+
+	/*Portfolio*/
+	.portfolio 
+	{ display: block; }
+
+	.portfolio-titulo-principal
+	{ position: relative; right: 200px; bottom: 150px; }
+
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld
+	{ left: 1em; width: 30%; }
+
+	.portfolio_card_1_ld
+	{ top: 0em; left: 190px; }
+
+	.portfolio_card_2_ld
+	{ top: 5em; left: 190px; }
+
+	.card_consult
+	{ position: relative; top: 35em; left: 170px; }
+
+	/*Rodape*/
+	.contato
+	{ position: relative; left: -50px; background: #222; font-size: 1.5em; top: 0px; }
+
+	.copyright
+	{ position: relative; right: 780px; top: 300px; }
+
+	.rodape_img
+	{ position: relative; left: -680px; height: 100px; width: 200px; top: 150px; }
+
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+
+	/* Conteúdo */
+	.conteudo 
+	{ grid-area: section; }
+
+	.secao-missao 
+	{ height: 12.5%; }
+			
+	.secao-mensagem 
+	{ height: 7%; }
+
+	.secao-sobre 
+	{ height: 48.5%; }
+
+	.portfolio 
+	{ height: 32%; }
+
+		/* Navegacao */
+
+	.checkbtn 
+	{ line-height: 60px; }
+
+	/* Logo */
+	.logo 
+	{ position: relative; right: 2.5em; }
+
+	.texto-navegacao 
+	{ font-size: 1.5em; }
+	/* Fim logo */
+
+
+
+	/*Destaque*/
+	.destaque 
+	{ background: linear-gradient(rgba(0,0,0,0.7), 
+	rgba(0,0,0,0.7)),url('../img/negocios_00.jpg')no-repeat; 
+	height: 383px; }
+	/*Fim da área de destaque*/
+
+
+
+	/*Conteudo*/
+		/*Missão*/
+
+	.secao-missao
+	{ position: relative; right: 150px; }
+
+	.missao-img
+	{ top: 160px; height: 400px; left: 320px; }
+
+	.missao-descricao
+	{ top: 220px; height: 300px; left: 300px; width: 300px; }
+
+	.missao-titulo
+	{ left: 50px; top: 20px; }
+
+	.missao-texto
+	{ width: 90%; text-align: left; top: 20px;
+	left: 20px; }
+
+	/*Mensagem*/
+	
+	.mensagem, 
+	.mensagem_02 
+	{ width: 90%; height: 60%; }	
+
+	.mensagem p
+	{  width: 75%; left: 60px; text-align: center; top: 10px; }
+
+	.mensagem span
+	{ left: 400px; }
+
+	.mensagem_02 p
+	{ width: 70%; left: 100px; }
+
+	.mensagem_02 p, .mensagem p
+	{ font-size: 25px; }
+
+	.mensagem_02 span
+	{ left: 320px; }
+
+	.mensagem_02 span, .mensagem span
+	{ top: 50px; font-size: 15px; }
+
+
+	/*Sobre*/
+	/*Sobre motivação*/
+
+	.sobre-motivacao-card 
+	{ height: 250px; width: 250px; }
+
+	.card-titulo 
+	{ font-size: 4em; font-weight: bold; color: tomato; }
+
+	.card-texto
+	{ font-size: 1em; }
+
+	.sobre-motivacao 
+	{ height: 54%; position: relative; bottom: 100px; }
+
+	.titulo-principal 
+	{ right: -5em; width: 100%; font-size: 25px; text-transform: uppercase; top: -100px; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; top: 50px; left: 18em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 25em; right: 0em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 47em; right: 18em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 69em; right: 35.5em; }
+
+
+
+	/*Sobre serviços*/
+	.sobre-servicos 
+	{ height: 17%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_05.jpg')no-repeat; }
+
+	.servicos-titulo 
+	{ position: relative; right: 1.8em; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; 
+	width: 32%; left: 12em; }
+
+	/*Seção produtos*/
+	.secao-produtos 
+	{ height: 19%; }
+
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld 
+	{ position: relative; left: 17em; top: 3.5em; width: 30%; }
+
+	.landing_page_texto p,
+	.ecommerce_texto p,
+	.blog_texto p 
+	{ font-size: 0.8em; }
+
+	/*Portfolio*/
+	.portfolio 
+	{ display: block; }
+
+	.portfolio-titulo-principal
+	{ position: relative; right: 200px; bottom: 150px; }
+
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld
+	{ left: 1em; width: 30%; }
+
+	.portfolio_card_1_ld
+	{ top: 0em; left: 190px; }
+
+	.portfolio_card_2_ld
+	{ top: 5em; left: 190px; }
+
+	.card_consult
+	{ position: relative; top: 35em; left: 170px; }
+
+	/*Rodape*/
+	.contato
+	{ position: relative; left: -50px; background: #222; font-size: 1.5em; top: 0px; }
+
+	.copyright
+	{ position: relative; right: 780px; top: 300px; }
+
+	.rodape_img
+	{ position: relative; left: -680px; height: 100px; width: 200px; top: 150px; }
+
+}
+
+/*------------------------------------------ 701px a 800px ------------------------------------*/
+
+
+
+@media (min-width: 701px) and (max-width: 800px) {
+
+	/* Conteúdo */
+	.conteudo 
+	{ grid-area: section; }
+
+	.secao-missao 
+	{ height: 12.5%; }
+			
+	.secao-mensagem 
+	{ height: 7%; }
+
+	.secao-sobre 
+	{ height: 48.5%; }
+
+	.portfolio 
+	{ height: 32%; }
+
+		/* Navegacao */
+
+	.checkbtn 
+	{ line-height: 60px; }
+
+	/* Logo */
+	.logo 
+	{ position: relative; right: 2.5em; }
+
+	.texto-navegacao 
+	{ font-size: 1.5em; }
+	/* Fim logo */
+
+
+
+	/*Destaque*/
+	.destaque 
+	{ background: linear-gradient(rgba(0,0,0,0.7), 
+	rgba(0,0,0,0.7)),url('../img/negocios_00.jpg')no-repeat; 
+	height: 383px; }
+	/*Fim da área de destaque*/
+
+
+
+	/*Conteudo*/
+		/*Missão*/
+
+	.secao-missao
+	{ position: relative; right: 150px; }
+
+	.missao-img
+	{ top: 180px; height: 400px; left: 250px; }
+
+	.missao-descricao
+	{ top: 230px; height: 300px; left: 210px; width: 300px; }
+
+	.missao-titulo
+	{ left: 50px; top: 20px; }
+
+	.missao-texto
+	{ width: 90%; text-align: left; top: 20px;
+	left: 20px; }
+
+	/*Mensagem*/
+	
+	.mensagem, 
+	.mensagem_02 
+	{ width: 85%; height: 60%; }	
+
+	.mensagem p
+	{  width: 75%; left: 10px; text-align: center; top: 10px; }
+
+	.mensagem span
+	{ left: 340px; }
+
+	.mensagem_02 p
+	{ width: 70%; left: 50px; }
+
+	.mensagem_02 p, .mensagem p
+	{ font-size: 25px; }
+
+	.mensagem_02 span
+	{ left: 320px; }
+
+	.mensagem_02 span, .mensagem span
+	{ top: 50px; font-size: 15px; }
+
+
+	/*Sobre*/
+	/*Sobre motivação*/
+
+	.sobre-motivacao-card 
+	{ height: 250px; width: 250px; }
+
+	.card-titulo 
+	{ font-size: 4em; font-weight: bold; color: tomato; }
+
+	.card-texto
+	{ font-size: 1em; }
+
+	.sobre-motivacao 
+	{ height: 54%; position: relative; bottom: 100px; }
+
+	.titulo-principal 
+	{ left: -8em; width: 100%; font-size: 25px; text-transform: uppercase; top: -100px; }
+
+	.sobre-motivacao-card:nth-child(1) 
+	{ position: relative; top: 50px; left: 14em; }
+
+	.sobre-motivacao-card:nth-child(2) 
+	{ position: relative; top: 25em; right: 3.5em; }
+
+	.sobre-motivacao-card:nth-child(3) 
+	{ position: relative; top: 47em; right: 21em; }
+
+	.sobre-motivacao-card:nth-child(4) 
+	{ position: relative; top: 69em; right: 38.5em; }
+
+
+
+	/*Sobre serviços*/
+	.sobre-servicos 
+	{ height: 17%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_05.jpg')no-repeat; }
+
+	.servicos-titulo 
+	{ position: relative; right: 2.5em; }
+
+	.servicos-texto 
+	{ position: relative; font-size: 1.3em; 
+	width: 32%; left: 9em; }
+
+	/*Seção produtos*/
+	.secao-produtos 
+	{ height: 19%; }
+
+	.card_1_ld, 
+	.card_2_ld, 
+	.card_3_ld 
+	{ position: relative; left: 12em; top: 3.5em; width: 30%; }
+
+	.landing_page_texto p,
+	.ecommerce_texto p,
+	.blog_texto p 
+	{ font-size: 0.8em; }
+
+	/*Portfolio*/
+	.portfolio 
+	{ display: block; }
+
+	.portfolio-titulo-principal
+	{ position: relative; right: 200px; bottom: 150px; }
+
+	.portfolio_card_1_ld, 
+	.portfolio_card_2_ld, 
+	.portfolio_card_3_ld
+	{ left: 1em; width: 30%; }
+
+	.portfolio_card_1_ld
+	{ top: 0em; left: 190px; }
+
+	.portfolio_card_2_ld
+	{ top: 5em; left: 190px; }
+
+	.card_consult
+	{ position: relative; top: 35em; left: 170px; }
+
+	/*Rodape*/
+	.contato
+	{ position: relative; left: -50px; background: #222; font-size: 1.5em; top: 0px; }
+
+	.copyright
+	{ position: relative; right: 780px; top: 300px; }
+
+	.rodape_img
+	{ position: relative; left: -680px; height: 100px; width: 200px; top: 150px; }
+
 }
 
 /* ----------------------------------------------- 600 px ---------------------------------------*/
@@ -317,40 +1030,7 @@
 
 }
 
-@media (min-width: 501px) and (max-width: 600px) {
-
-
-
-	/* Conteúdo */
-	.conteudo 
-	{ grid-area: section; }
-
-	.secao-missao 
-	{ height: 12.5%; }
-			
-	.secao-mensagem 
-	{ height: 7%; }
-
-	.secao-sobre 
-	{ height: 48.5%; }
-
-	.portfolio 
-	{ height: 32%; }
-
-		/* Navegacao */
-
-	.checkbtn 
-	{ line-height: 60px; }
-
-	/* Logo */
-	.logo 
-	{ position: relative; right: 2.5em; }
-
-	.texto-navegacao 
-	{ font-size: 1.5em; }
-	/* Fim logo */
-
-
+@media (min-width: 450px) and (max-width: 600px) {
 
 	/*Destaque*/
 	.destaque 
@@ -505,37 +1185,7 @@
 
 /* ----------------------------------------------- 401 à 500px ---------------------------------------*/
 
-@media (min-width: 401px) and (max-width: 500px) {
-
-	/* Conteúdo */
-	.conteudo 
-	{ grid-area: section; }
-
-	.secao-missao 
-	{ height: 12.5%; }
-			
-	.secao-mensagem 
-	{ height: 7%; }
-
-	.secao-sobre 
-	{ height: 48.5%; }
-
-	.portfolio 
-	{ height: 32%; }
-
-		/* Navegacao */
-
-	.checkbtn 
-	{ line-height: 60px; }
-
-	/* Logo */
-	.logo 
-	{ position: relative; right: 2.5em; }
-
-	.texto-navegacao 
-	{ font-size: 1.5em; }
-	/* Fim logo */
-
+@media (min-width: 401px) and (max-width: 450px) {
 
 
 	/*Destaque*/
@@ -582,16 +1232,16 @@
 	{  width: 75%; left: 10px; text-align: center; top: 10px; }
 
 	.mensagem span
-	{ left: 200px; }
+	{ left: 180px; }
 
 	.mensagem_02 p
-	{ left: 20px; width: 87%; }
+	{ left: 20px; width: 80%; }
 
 	.mensagem_02 p, .mensagem p
 	{ font-size: 20px; }
 
 	.mensagem_02 span
-	{ left: 230px; }
+	{ left: 200px; }
 
 	.mensagem_02 span, .mensagem span
 	{ top: 50px; font-size: 15px; }
@@ -613,19 +1263,19 @@
 	{ height: 54%; position: relative; bottom: 100px; }
 
 	.titulo-principal 
-	{ left: -13em; width: 100%; font-size: 25px; text-transform: uppercase; top: -100px; }
+	{ left: -17em; width: 100%; font-size: 25px; text-transform: uppercase; top: -100px; }
 
 	.sobre-motivacao-card:nth-child(1) 
-	{ position: relative; top: 50px; left: 6em; }
+	{ position: relative; top: 50px; left: 4.5em; }
 
 	.sobre-motivacao-card:nth-child(2) 
-	{ position: relative; top: 25em; right: 11.5em; }
+	{ position: relative; top: 25em; right: 13em; }
 
 	.sobre-motivacao-card:nth-child(3) 
-	{ position: relative; top: 47em; right: 29em; }
+	{ position: relative; top: 47em; right: 30.5em; }
 
 	.sobre-motivacao-card:nth-child(4) 
-	{ position: relative; top: 69em; right: 46.5em; }
+	{ position: relative; top: 69em; right: 48em; }
 
 
 
@@ -635,11 +1285,11 @@
 	rgba(0,0,0,0.5)),url('../img/Red_servicos_05.jpg')no-repeat; }
 
 	.servicos-titulo 
-	{ position: relative; right: 4em; }
+	{ position: relative; right: 4.5em; }
 
 	.servicos-texto 
 	{ position: relative; font-size: 1.3em; 
-	width: 32%; left: 3.5em; }
+	width: 32%; left: 2em; }
 
 	/*Seção produtos*/
 	.secao-produtos 
@@ -648,7 +1298,7 @@
 	.card_1_ld, 
 	.card_2_ld, 
 	.card_3_ld 
-	{ position: relative; left: 5em; top: 3.5em; width: 30%; }
+	{ position: relative; left: 3em; top: 3.5em; width: 30%; }
 
 	.landing_page_texto p,
 	.ecommerce_texto p,
@@ -660,7 +1310,7 @@
 	{ display: block; }
 
 	.portfolio-titulo-principal
-	{ position: relative; right: 300px; bottom: 150px; }
+	{ position: relative; right: 340px; bottom: 150px; }
 
 	.portfolio_card_1_ld, 
 	.portfolio_card_2_ld, 
@@ -668,23 +1318,23 @@
 	{ width: 30%; }
 
 	.portfolio_card_1_ld
-	{ top: 0em; left: 100px; }
+	{ top: 0em; left: 50px; }
 
 	.portfolio_card_2_ld
-	{ top: 5em; left: 100px; }
+	{ top: 5em; left: 50px; }
 
 	.card_consult
-	{ position: relative; top: 35em; right: 430px; }
+	{ position: relative; top: 35em; right: 480px; }
 
 	/*Rodape*/
 	.contato
-	{ position: relative; left: -170px; background: #222; font-size: 1.2em; top: 0px; }
+	{ position: relative; left: -200px; background: #222; font-size: 1.2em; top: 0px; }
 
 	.copyright
 	{ position: relative; right: 780px; top: 300px; }
 
 	.rodape_img
-	{ position: relative; left: -800px; height: 100px; width: 200px; top: 150px; }
+	{ position: relative; left: -830px; height: 100px; width: 200px; top: 150px; }
 
 /* ----------------------------------------------- 400 px ---------------------------------------*/
 
@@ -695,22 +1345,6 @@
 	label.logo { bottom: 70px; }
 
 	ul { position: fixed; width: 100%; height: 100vh; top: 60px; }
-
-	/* Conteúdo */
-	.conteudo 
-	{ grid-area: section; }
-
-	.secao-missao 
-	{ height: 12.5%; }
-			
-	.secao-mensagem 
-	{ height: 7%; }
-
-	.secao-sobre 
-	{ height: 48.5%; }
-
-	.portfolio 
-	{ height: 32%; }
 
 		/* Navegacao */
 
@@ -1004,4 +1638,3 @@
 
 }
 
-}
