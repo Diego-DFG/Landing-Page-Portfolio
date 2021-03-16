@@ -1185,7 +1185,7 @@
 
 /* ----------------------------------------------- 500px ---------------------------------------*/
 
-@media (max-width: 500px) {
+@media (min-width: 401px) and (max-width: 500px) {
 
 
 	/*Destaque*/
@@ -1340,7 +1340,7 @@
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 
 
 	/*Destaque*/
@@ -1358,6 +1358,16 @@
 
 	.logo-navegacao
 	{ position: relative; left: -50px; }
+
+
+	
+	#whatsapp, #instagram, #back-to-top
+	{ right: 30px; }
+	#whatsapp 
+	{ top: 400px; }
+	#instagram
+	{ top: 450px; }
+
 	/*Fim navegação*/
 
 	/*Conteudo*/
@@ -1370,10 +1380,10 @@
 	{ top: 180px; height: 350px; width: 150px; left: 160px; }
 
 	.missao-descricao
-	{ top: 230px; height: 250px; left: 150px; width: 185px; }
+	{ top: 230px; height: 250px; left: 140px; width: 160px; }
 
 	.missao-titulo
-	{ left: -10px; top: 20px; }
+	{ left: 5px; top: 20px; font-size: 23px; }
 
 	.missao-texto
 	{ width: 85%; text-align: left; top: 20px; font-size: 0.8em;
@@ -1392,7 +1402,7 @@
 	{ width: 45%; }
 
 	.mensagem p
-	{  width: 58%; left: 10px; text-align: center; top: 10px; }
+	{  width: 53%; left: 10px; text-align: center; top: 10px; }
 
 	.mensagem_02 p
 	{ left: 10px; width: 65%; top: 10px; }
@@ -1401,7 +1411,7 @@
 	{ font-size: 15px; }
 
 	.mensagem_02 span, .mensagem span
-	{ top: 50px; font-size: 10px; left: 150px; }
+	{ top: 50px; font-size: 10px; left: 130px; }
 
 
 	/*Sobre*/
@@ -1417,36 +1427,36 @@
 	{ font-size: 1em; }
 
 	.sobre-motivacao 
-	{ height: 54%; position: relative; bottom: 100px; }
+	{ height: 58.5%; position: relative; bottom: 100px; }
 
 	.titulo-principal 
-	{ left: -20.2em; width: 100%; font-size: 20px; text-transform: uppercase; top: -100px; }
+	{ left: 1em; width: 23%; font-size: 20px; text-transform: uppercase; top: -100px; }
 
 	.sobre-motivacao-card:nth-child(1) 
-	{ position: relative; top: 50px; left: 1em; }
+	{ position: relative; top: 50px; left: 0em; }
 
 	.sobre-motivacao-card:nth-child(2) 
-	{ position: relative; top: 25em; right: 16.5em; }
+	{ position: relative; top: 25em; right: 17.5em; }
 
 	.sobre-motivacao-card:nth-child(3) 
-	{ position: relative; top: 47em; right: 34em; }
+	{ position: relative; top: 47em; right: 35em; }
 
 	.sobre-motivacao-card:nth-child(4) 
-	{ position: relative; top: 69em; right: 51.5em; }
+	{ position: relative; top: 69em; right: 52.5em; }
 
 
 
 	/*Sobre serviços*/
 	.sobre-servicos 
-	{ height: 17%; background: linear-gradient(rgba(0,0,0,0.5), 
-	rgba(0,0,0,0.5)),url('../img/Red_servicos_05.jpg')no-repeat; }
+	{ height: 12.5%; background: linear-gradient(rgba(0,0,0,0.5), 
+	rgba(0,0,0,0.5)),url('../img/Red_servicos_03.jpg')no-repeat; }
 
 	.servicos-titulo 
-	{ position: relative; right: 5em; }
+	{ position: relative; right: 8.3em; font-size: 50px; }
 
 	.servicos-texto 
-	{ position: relative; font-size: 1.3em; 
-	width: 32%; left: 0em; }
+	{ position: relative; font-size: 1em; 
+	width: 32%; left: -1em; top: 150px; }
 
 	/*Seção produtos*/
 	.secao-produtos 
@@ -1455,7 +1465,7 @@
 	.card_1_ld, 
 	.card_2_ld, 
 	.card_3_ld 
-	{ position: relative; left: 2em; top: 3.5em; width: 25%; }
+	{ position: relative; left: 1em; top: 3.5em; width: 25%; }
 
 	.landing_page_texto p,
 	.ecommerce_texto p,
@@ -1475,22 +1485,22 @@
 	{ width: 25%; }
 
 	.portfolio_card_1_ld
-	{ top: 0em; left: 30px; }
+	{ top: 0em; left: 15px; }
 
 	.portfolio_card_2_ld
-	{ top: 5em; left: 30px; }
+	{ top: 5em; left: 15px; }
 
 	.card_consult
-	{ position: relative; top: 35em; right: 500px; }
+	{ position: relative; top: 35em; right: 515px; }
 
 	/*Rodape*/
 	.contato
-	{ position: relative; left: -270px; background: #222; font-size: 1em; top: 0px; }
+	{ position: relative; left: -280px; background: #222; font-size: 1em; top: 10px; }
 
 	.copyright
 	{ position: relative; right: 780px; top: 300px; }
 
 	.rodape_img
-	{ position: relative; left: -900px; height: 80px; width: 200px; top: 150px; }
+	{ position: relative; left: -910px; height: 80px; width: 200px; top: 150px; }
 
 }
